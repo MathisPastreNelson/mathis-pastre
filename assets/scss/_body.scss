@@ -70,10 +70,10 @@ main {
   z-index: -1;
 }
 
-.section2BackgroundTexture {
-  @extend .sectionBackgroundTexture;
-  background-image: url(../images/background/texture.svg);
-}
+// .section2BackgroundTexture {
+//   @extend .sectionBackgroundTexture;
+//   background-image: url(../images/background/texture.svg);
+// }
 
 .section4BackgroundTexture {
   @extend .sectionBackgroundTexture;
