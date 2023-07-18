@@ -6,12 +6,12 @@
     <img
       class="w-4"
       v-if="theme === 'dark'"
-      src="@/assets/images/items/Icons/Moon.svg"
+      src="~/assets/images/items/Icons/Moon.svg"
       alt="French Flag" />
     <img
       class="w-7"
       v-else-if="theme === 'light'"
-      src="@/assets/images/items/Icons/Sun.svg"
+      src="~/assets/images/items/Icons/Sun.svg"
       alt="English Flag" />
   </button>
 </template>
