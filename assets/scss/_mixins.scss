@@ -1,0 +1,23 @@
+// Title animation
+@mixin share-title-animation($background-color) {
+  $share-span-count: 11;
+  $base-transition-delay: 100ms;
+
+  @for $i from 1 through $share-span-count {
+    $delay: ($i - 1) * $base-transition-delay;
+    $rotate: ($i - 6) * 5;
+
+    .share > h1 > div > span:nth-child(#{$i}):after {
+      background: $background-color;
+      width: 100%;
+      transition: 0.6s;
+      transition-delay: $delay;
+      transform: rotate(#{$rotate}deg);
+    }
+
+    .share > h1 > div > span:nth-child(#{$i}) {
+      transition-delay: $delay + $base-transition-delay;
+      animation: fadein $delay + $base-transition-delay;
+    }
+  }
+}
