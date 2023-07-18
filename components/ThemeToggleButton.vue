@@ -1,37 +1,32 @@
 <template>
-  <div>
-    <button
-      aria-label="theme change"
-      class="themeButton outline-none shadow-shadow1 flex justify-center items-center w-14 px-2 py-3 max-sm:w-12 max-sm:px-2 mr-3 h-5vh rounded-lg font-black active:brightness-150 hover:brightness-150 ease-out duration-300"
-      @click="toggleTheme">
-      <img class="w-7" :src="currentIcon" alt="theme-icon" />
-    </button>
-  </div>
+  <button
+    aria-label="theme change"
+    @click="toggleTheme"
+    class="themeButton outline-none shadow-shadow1 flex justify-center items-center px-4 py-3 w-14 max-sm:w-12 max-sm:px-2 h-5vh rounded-lg font-black active:brightness-150 hover:brightness-150 ease-out duration-300">
+    <img
+      class="w-7"
+      v-if="theme === 'dark'"
+      src="@/assets/images/items/Icons/Moon.svg"
+      alt="French Flag" />
+    <img
+      class="w-7"
+      v-else-if="theme === 'light'"
+      src="@/assets/images/items/Icons/Sun.svg"
+      alt="English Flag" />
+  </button>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      theme: "dark",
-    };
-  },
-
-  computed: {
-    currentIcon() {
-      return this.theme === "light"
-        ? "~/assets/images/items/icons/Sun.svg"
-        : "~/assets/images/items/icons/Moon.svg";
+  props: {
+    theme: {
+      type: String,
+      required: true,
     },
   },
-
   methods: {
     toggleTheme() {
-      const newTheme = this.theme === "light" ? "dark" : "light";
-      this.theme = newTheme;
-      // You can perform any additional actions related to theme change here
-      // For example, save the theme in localStorage or emit an event to update the theme globally.
-      this.$emit("toggle-theme", newTheme);
+      this.$emit("toggle-theme");
     },
   },
 };
