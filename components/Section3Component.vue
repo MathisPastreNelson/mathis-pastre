@@ -23,7 +23,7 @@
                   href="https://mathispastrenelson.github.io/ai-generation/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -57,7 +57,7 @@
                   href="https://mathispastrenelson.github.io/tesla-clone/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -92,7 +92,7 @@
                   href="https://mathispastrenelson.github.io/mouffette/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -127,7 +127,7 @@
                   href="https://mathispastrenelson.github.io/disco-groove/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -162,7 +162,7 @@
                   href="https://mathispastrenelson.github.io/my-api-project/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -199,7 +199,7 @@
                   href="https://mathispastrenelson.github.io/site-mairie/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -236,7 +236,7 @@
                   href="https://role-playing-groubi.netlify.app/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -271,7 +271,7 @@
                   href="https://mathispastrenelson.github.io/projet-7-ocr/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -305,7 +305,7 @@
                   href="https://github.com/MathisPastreNelson/Projet-6-OCR/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -340,7 +340,7 @@
                   href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -375,7 +375,7 @@
                   href="https://mathispastrenelson.github.io/Projet-4-OCR/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -410,7 +410,7 @@
                   href="https://mathispastrenelson.github.io/Projet-3-OCR/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
@@ -447,7 +447,7 @@
                   href="https://mathispastrenelson.github.io/Projet-2-OCR/">
                   <button
                     class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-                    <span class="font-semibold"> {{ $t("contactSend") }}</span>
+                    <span class="font-semibold"> {{ $t("visitButton") }}</span>
                     <img
                       class="ml-3 w-5 svg-icon"
                       src="../assets/images/items/visit.svg"
