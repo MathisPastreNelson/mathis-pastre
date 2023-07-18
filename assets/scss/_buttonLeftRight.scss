@@ -75,3 +75,47 @@ $btn-hover-height: 115%;
     }
   }
 }
+
+.buttonEffect:hover {
+  box-shadow: 0px 0px 40px 0px rgba(0, 139, 163, 0.76);
+}
+.buttonEffect::after {
+  content: "●";
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.8em;
+  color: rgba(232, 255, 131, 0.397);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 0;
+  transform-origin: left;
+  animation: 16s linear infinite reverse orbit-pullquote;
+  transition: 1.2s ease-out;
+}
+.buttonEffect:hover::after {
+  width: 80%;
+}
+.buttonEffect::before {
+  content: "●";
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2em;
+  color: rgba(192, 253, 255, 0.534);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 0;
+  transform-origin: left;
+  animation: 16s linear infinite orbit-pullquote;
+  transition: 0.4s ease-out;
+}
+.buttonEffect:hover::before {
+  width: 80%;
+}

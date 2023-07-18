@@ -35,13 +35,14 @@
       name="message"
       v-model="message"
       required></textarea>
-
-    <Button
-      type="submit"
-      class="visitButton mt-4 font-black text-xl rounded-sm"
-      :svgPath="`@/assets/images/items/sendMessage.svg`"
-      :iconPosition="'right'"
-      :buttonText="$t('contactSend')" />
+    <button
+      class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
+      <span class="font-semibold"> {{ $t("contactSend") }}</span>
+      <img
+        class="ml-3 svg-icon w-5"
+        src="../assets/images/items/sendMessage.svg"
+        alt="SVG Icon" />
+    </button>
   </form>
 </template>
 
@@ -53,12 +54,7 @@ textarea:hover {
 </style>
 
 <script>
-import Button from "@/components/Button.vue";
-
 export default {
-  components: {
-    Button,
-  },
   data() {
     return {
       email: "",
