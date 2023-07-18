@@ -70,11 +70,13 @@ main {
   z-index: -1;
 }
 
-// .section2BackgroundTexture {
-//   @extend .sectionBackgroundTexture;
-//   background-image: url(../images/background/texture.svg);
-// }
-//
+.section2BackgroundTexture {
+  @extend .sectionBackgroundTexture;
+  min-height: $last-section-height;
+  background-image: url(../images/background/texture.svg);
+  opacity: 0.1;
+}
+
 .section4BackgroundTexture {
   @extend .sectionBackgroundTexture;
   min-height: $last-section-height;
