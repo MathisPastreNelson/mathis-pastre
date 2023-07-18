@@ -22,7 +22,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/ai-generation/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <img
@@ -51,7 +53,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/tesla-clone/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
@@ -81,7 +85,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/mouffette/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
@@ -111,7 +117,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/disco-groove/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">04/2023</p>
@@ -141,7 +149,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/my-api-project/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">03/2023</p>
@@ -173,7 +183,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/site-mairie/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">02/2023</p>
@@ -205,7 +217,9 @@
                   target="_blank"
                   href="https://role-playing-groubi.netlify.app/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">01/2023</p>
@@ -235,7 +249,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/projet-7-ocr/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">12/2022</p>
@@ -264,7 +280,9 @@
                   target="_blank"
                   href="https://github.com/MathisPastreNelson/Projet-6-OCR/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">10/2022</p>
@@ -294,7 +312,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">09/2022</p>
@@ -324,7 +344,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/Projet-4-OCR/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
@@ -354,7 +376,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/Projet-3-OCR/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
@@ -386,7 +410,9 @@
                   target="_blank"
                   href="https://mathispastrenelson.github.io/Projet-2-OCR/">
                   <Button
-                    class="visitButton text-xl rounded-sm mb-2"
+                    class="visitButton mt-4 font-black text-xl rounded-sm"
+                    :svgPath="`_nuxt/assets/images/items/visit.svg`"
+                    :iconPosition="'right'"
                     :buttonText="$t('visitButton')" />
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">07/2022</p>

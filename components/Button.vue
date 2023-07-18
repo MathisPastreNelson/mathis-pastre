@@ -92,11 +92,11 @@ export default {
     },
     svgWidth: {
       type: String,
-      default: "24px",
+      default: "20px",
     },
     svgHeight: {
       type: String,
-      default: "24px",
+      default: "20px",
     },
   },
 };
