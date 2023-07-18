@@ -34,7 +34,7 @@
                   class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
                   src="~/assets/images/projects/logos/aigeneration.jpg"
                   alt="" />
-                <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">07/2023</p>
               </div>
             </div>
             <div class="item__3d-frame__box item__3d-frame__box--left"></div>
@@ -64,7 +64,7 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">06/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
                   src="~/assets/images/projects/logos/tesla.png"
