@@ -39,7 +39,7 @@
     <Button
       type="submit"
       class="visitButton mt-4 font-black text-xl rounded-sm"
-      :svgPath="`_nuxt/assets/images/items/sendMessage.svg`"
+      :svgPath="`@/assets/images/items/sendMessage.svg`"
       :iconPosition="'right'"
       :buttonText="$t('contactSend')" />
   </form>
