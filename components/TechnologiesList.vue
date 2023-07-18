@@ -16,8 +16,8 @@
     <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
       <img src="../assets/images/items/icons/javascript.svg" alt="JavaScript" />
       <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >Javascript</span
-      >
+        >Javascript
+      </span>
     </button>
     <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
       <img src="../assets/images/items/icons/react.svg" alt="React" />
