@@ -230,15 +230,18 @@
   0% {
     filter: hue-rotate(0deg);
     border-radius: 4px;
+    transform: rotateX(0);
   }
 
-  50% {
+  90% {
     filter: hue-rotate(-360deg);
     border-radius: 12px;
+    transform: rotateX(-20deg) scale(0.9);
   }
   100% {
     filter: hue-rotate(0deg);
     border-radius: 4px;
+    transform: rotateX(-360deg);
   }
 }
 

@@ -41,7 +41,7 @@ onMounted(() => {
   width: 50%;
   max-height: 9dvh;
 
-  animation: hue 6s infinite;
+  animation: hue 10s infinite;
   opacity: 0.8;
 }
 </style>
