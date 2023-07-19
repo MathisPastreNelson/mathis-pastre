@@ -4,7 +4,7 @@
       class="h-10vh flex items-center px-10 max-sm:px-4 duration-300 justify-between w-full z-10">
       <img
         class="logo px-4"
-        src="../assets/images/items/MP-logo.png"
+        src="../assets/images/items/MP-logo.webp"
         alt="header logo" />
       <div class="flex justify-center items-center">
         <LanguageSwitchButton />

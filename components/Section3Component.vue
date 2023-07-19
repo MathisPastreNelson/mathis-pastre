@@ -32,7 +32,7 @@
                 </a>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/aigeneration.jpg"
+                  src="~/assets/images/projects/logos/aigeneration.webp"
                   alt="" />
                 <p class="absolute right-[5%] bottom-[5%]">07/2023</p>
               </div>
@@ -67,7 +67,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">06/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/tesla.png"
+                  src="~/assets/images/projects/logos/tesla.webp"
                   alt="" />
               </div>
             </div>
@@ -137,7 +137,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">04/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/franceEnTranse.jpg"
+                  src="~/assets/images/projects/logos/franceEnTranse.webp"
                   alt="" />
               </div>
             </div>
@@ -172,7 +172,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">03/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/cinemathis.jpg"
+                  src="~/assets/images/projects/logos/cinemathis.webp"
                   alt="" />
               </div>
             </div>
@@ -209,7 +209,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">02/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/mairie.jpg"
+                  src="~/assets/images/projects/logos/mairie.webp"
                   alt="" />
               </div>
             </div>
@@ -246,7 +246,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">01/2023</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/rpg.jpg"
+                  src="~/assets/images/projects/logos/rpg.webp"
                   alt="" />
               </div>
             </div>
@@ -281,7 +281,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">12/2022</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/kasa.png"
+                  src="~/assets/images/projects/logos/kasa.webp"
                   alt="" />
               </div>
             </div>
@@ -350,7 +350,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">09/2022</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/kanap.png"
+                  src="~/assets/images/projects/logos/kanap.webp"
                   alt="" />
               </div>
             </div>
@@ -385,7 +385,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/panthere.png"
+                  src="~/assets/images/projects/logos/panthere.webp"
                   alt="" />
               </div>
             </div>
@@ -457,7 +457,7 @@
                 <p class="absolute right-[5%] bottom-[5%]">07/2022</p>
                 <img
                   class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
-                  src="~/assets/images/projects/logos/Booki.png"
+                  src="~/assets/images/projects/logos/Booki.webp"
                   alt="" />
               </div>
             </div>
@@ -484,19 +484,19 @@
 </template>
 
 <script>
-import aigenerationImage from "../assets/images/projects/aigeneration.jpg";
-import teslaImage from "../assets/images/projects/tesla.jpg";
-import mouffetteImage from "../assets/images/projects/mouffette.jpg";
-import franceentranseImage from "../assets/images/projects/franceentranse.jpg";
-import cinemathisImage from "../assets/images/projects/cinemathis.jpg";
-import mairieImage from "../assets/images/projects/mairie.jpg";
-import rpgroubiImage from "../assets/images/projects/rpgroubi.jpg";
-import kasaImage from "../assets/images/projects/kasa.jpg";
-import piquanteImage from "../assets/images/projects/piquante.jpg";
-import kanapImage from "../assets/images/projects/kanap.jpg";
-import panthereImage from "../assets/images/projects/panthere.jpg";
-import ohmyfoodImage from "../assets/images/projects/ohmyfood.jpg";
-import bookiImage from "../assets/images/projects/booki.jpg";
+import aigenerationImage from "../assets/images/projects/aigeneration.webp";
+import teslaImage from "../assets/images/projects/tesla.webp";
+import mouffetteImage from "../assets/images/projects/mouffette.webp";
+import franceentranseImage from "../assets/images/projects/franceentranse.webp";
+import cinemathisImage from "../assets/images/projects/cinemathis.webp";
+import mairieImage from "../assets/images/projects/mairie.webp";
+import rpgroubiImage from "../assets/images/projects/rpgroubi.webp";
+import kasaImage from "../assets/images/projects/kasa.webp";
+import piquanteImage from "../assets/images/projects/piquante.webp";
+import kanapImage from "../assets/images/projects/kanap.webp";
+import panthereImage from "../assets/images/projects/panthere.webp";
+import ohmyfoodImage from "../assets/images/projects/ohmyfood.webp";
+import bookiImage from "../assets/images/projects/booki.webp";
 export default {
   data() {
     return {

@@ -40,7 +40,7 @@
 }
 
 .img-01 {
-  background-image: url(../assets/images/items/moi-8bit.png);
+  background-image: url(../assets/images/items/moi-8bit.webp);
   background-color: rgba(255, 255, 255, 0.212);
   background-repeat: no-repeat;
   background-position: 50%;
@@ -51,7 +51,7 @@
 }
 
 .img-02 {
-  background-image: url(../assets/images/items/moi.jpg);
+  background-image: url(../assets/images/items/moi.webp);
   top: 2.5dvh;
 
   background-position: 50% 35%;
