@@ -18,6 +18,10 @@
     fill: $dark-accent-color;
   }
 
+  .logo {
+    filter: hue-rotate(280deg) brightness(0.65);
+  }
+
   .langButton {
     background-color: $dark-button-bg-color;
     border: 1px solid $dark-button-border-color;
@@ -156,8 +160,7 @@
     fill: $light-theme-button-bg-color;
   }
   .logo {
-    box-shadow: 0px 0px 10px 5px #dfdfdf59 inset;
-    background-color: rgba(3, 3, 3, 0.281);
+    filter: hue-rotate(330deg) brightness(1.2);
   }
 
   .langButton {

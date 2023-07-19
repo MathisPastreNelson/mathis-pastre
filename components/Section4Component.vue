@@ -39,7 +39,7 @@
       class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
       <span class="font-semibold"> {{ $t("contactSend") }}</span>
       <img
-        class="ml-3 svg-icon w-5"
+        class="ml-3 svg-icon w-4"
         src="../assets/images/items/sendMessage.svg"
         alt="SVG Icon" />
     </button>

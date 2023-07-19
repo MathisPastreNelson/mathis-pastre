@@ -42,7 +42,6 @@ onMounted(() => {
   width: 10%;
   max-height: 9dvh;
   border-radius: 15px;
-  animation: hue 5s infinite;
-  opacity: 0.7;
+  transition: 300ms ease-in;
 }
 </style>
