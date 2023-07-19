@@ -31,7 +31,7 @@
                   </button>
                 </a>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/aigeneration.jpg"
                   alt="" />
                 <p class="absolute right-[5%] bottom-[5%]">07/2023</p>
@@ -66,7 +66,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">06/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/tesla.png"
                   alt="" />
               </div>
@@ -101,7 +101,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/mouffette.svg"
                   alt="" />
               </div>
@@ -136,7 +136,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">04/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/franceEnTranse.jpg"
                   alt="" />
               </div>
@@ -171,7 +171,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">03/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/cinemathis.jpg"
                   alt="" />
               </div>
@@ -208,7 +208,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">02/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/mairie.jpg"
                   alt="" />
               </div>
@@ -245,7 +245,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">01/2023</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/rpg.jpg"
                   alt="" />
               </div>
@@ -280,7 +280,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">12/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/kasa.png"
                   alt="" />
               </div>
@@ -314,7 +314,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">10/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/flame.svg"
                   alt="" />
               </div>
@@ -349,7 +349,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">09/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/kanap.png"
                   alt="" />
               </div>
@@ -384,7 +384,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/panthere.png"
                   alt="" />
               </div>
@@ -419,7 +419,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/ohmyfood.svg"
                   alt="" />
               </div>
@@ -456,7 +456,7 @@
                 </a>
                 <p class="absolute right-[5%] bottom-[5%]">07/2022</p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce max-w-110px max-sm:max-w-80px max-h-7vh rounded-md"
+                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/Booki.png"
                   alt="" />
               </div>
@@ -616,6 +616,13 @@ export default {
 </script>
 
 <style scoped>
+.floatProjectIcon {
+  width: 15%;
+
+  max-width: 90px;
+  min-width: 40px;
+  max-height: 70px;
+}
 .carousel {
   position: relative;
   display: flex;
