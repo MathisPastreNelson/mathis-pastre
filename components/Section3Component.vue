@@ -1,7 +1,7 @@
 <template>
   <div class="carousel">
     <div
-      class="carousel__background"
+      class="carousel__background zoom"
       :style="{ backgroundImage: `url(${activeProjectImage})` }"></div>
 
     <div class="carousel__body">
@@ -469,14 +469,14 @@
       </div>
     </div>
 
-    <div class="carousel__buttons_box">
+    <div class="carousel__buttons_box relative">
       <!-- Boutons controlant le carroussel -->
       <div class="data-container carousel__buttons_box">
         <span class="btn-left carousel__buttons carousel__prev mr-3">
           <img src="../assets/images/items/leftArrow.svg" alt="" srcset="" />
         </span>
         <span class="btn carousel__buttons carousel__next ml-3">
-          <img src="../assets/images/items/rightArrow.svg" alt="" srcset="" />
+          <img src="../assets/images/items/rightArrow.svg " alt="" srcset="" />
         </span>
       </div>
     </div>
@@ -637,7 +637,7 @@ export default {
 .carousel__background {
   position: absolute;
 
-  width: 100%;
+  width: 120%;
   height: 89dvh;
   background-size: cover;
   background-position: center;

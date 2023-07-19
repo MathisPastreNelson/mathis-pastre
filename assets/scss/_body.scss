@@ -72,9 +72,21 @@ main {
 
 .section2BackgroundTexture {
   @extend .sectionBackgroundTexture;
-  min-height: $last-section-height;
+  min-height: 100dvh;
   background-image: url(../images/background/texture.svg);
+  bottom: -10dvh;
+  background-size: cover;
+}
+
+.Section2Texture1Position {
+  background-position: left;
+
   opacity: 0.1;
+}
+
+.Section2Texture2Position {
+  background-position: right;
+  opacity: 0.2;
 }
 
 .section4BackgroundTexture {

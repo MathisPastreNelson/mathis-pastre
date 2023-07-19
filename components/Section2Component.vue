@@ -1,5 +1,8 @@
 <template>
-  <div class="section2BackgroundTexture"></div>
+  <div
+    class="section2BackgroundTexture Section2Texture1Position bounceXl"></div>
+  <div
+    class="section2BackgroundTexture Section2Texture2Position bounceXlReverse"></div>
   <div class="section2 px-6 py-4 my-4 relative">
     <h2
       class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">

@@ -41,7 +41,52 @@
     transform: translateY(-5px);
   }
 }
+@-webkit-keyframes bounceXl {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
 
+@keyframes bounceXl {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounceXlReverse {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes bounceXlReverse {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
 @-webkit-keyframes bounceH {
   0% {
     transform: translateX(-2px);
@@ -217,6 +262,18 @@
   }
 }
 
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 // Le nom des animations
 .scale-in-hor-right {
   -webkit-animation: scale-in-hor-right 0.5s
@@ -224,10 +281,19 @@
   animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.zoom {
+  animation: zoom 60s infinite linear;
+}
+
 .bounce {
   animation: bounce 3s infinite ease-in-out;
 }
-
+.bounceXl {
+  animation: bounceXl 3s infinite ease-in-out;
+}
+.bounceXlReverse {
+  animation: bounceXlReverse 3s infinite ease-in-out;
+}
 .bounceH {
   animation: bounceH 3s infinite ease-in-out;
 }
