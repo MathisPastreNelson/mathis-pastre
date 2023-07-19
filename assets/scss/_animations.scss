@@ -217,31 +217,28 @@
  * ---------------------------------------------- */
 
 @-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
+  0% {
+    filter: hue-rotate(0deg);
   }
 
-  to {
-    -webkit-filter: hue-rotate(-360deg);
+  50% {
+    filter: hue-rotate(-360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
   }
 }
 
 @keyframes hue {
   0% {
     filter: hue-rotate(0deg);
-    border-radius: 4px;
-    transform: rotateX(0);
   }
 
-  90% {
+  50% {
     filter: hue-rotate(-360deg);
-    border-radius: 12px;
-    transform: rotateX(-20deg) scale(0.9);
   }
   100% {
     filter: hue-rotate(0deg);
-    border-radius: 4px;
-    transform: rotateX(-360deg);
   }
 }
 
