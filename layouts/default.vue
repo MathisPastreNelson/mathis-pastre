@@ -3,7 +3,7 @@
     <header
       class="h-10vh flex items-center px-10 max-sm:px-4 duration-300 justify-between w-full z-10">
       <img
-        class="logo px-4 rounded-md"
+        class="logo px-4"
         src="../assets/images/items/MP-logo.png"
         alt="header logo" />
       <div class="flex justify-center items-center">
@@ -42,6 +42,6 @@ onMounted(() => {
   max-height: 9dvh;
 
   animation: hue 6s infinite;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 </style>
