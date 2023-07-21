@@ -82,6 +82,36 @@
   align-items: center;
 }
 
+.presentation::before {
+  content: "●";
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 3rem;
+  color: #d63c3c48;
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+
+  width: 140%;
+
+  animation: 10s linear infinite reverse orbit-pullquote;
+}
+
+.presentation::after {
+  content: "●";
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #8a9c253d;
+  position: absolute;
+  z-index: -1;
+  bottom: 20px;
+  width: 120%;
+
+  animation: 8s linear infinite orbit-pullquote;
+}
+
 .img-01:hover {
   opacity: 0;
 }
