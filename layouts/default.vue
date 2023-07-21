@@ -1,7 +1,7 @@
 <template>
   <main class="relative overflow-hidden">
     <header
-      class="h-10vh flex items-center px-10 max-sm:px-4 duration-300 justify-between w-full z-10">
+      class="headerHeight flex items-center px-10 max-sm:px-4 duration-300 justify-between w-full z-10">
       <img
         class="logo"
         src="../assets/images/items/MP-logo.webp"
@@ -36,6 +36,9 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.headerHeight {
+  height: 10dvh;
+}
 .logo {
   max-width: 130px;
   min-width: 90px;
