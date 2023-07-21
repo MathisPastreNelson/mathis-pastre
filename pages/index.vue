@@ -1,7 +1,9 @@
 <template>
   <Head>
     <Title>Portfolio Mathis Pastre</Title>
-
+    <meta
+      name="google-site-verification"
+      content="mTf5crUnBW6vN69fVdIoFGH0AJa_l3tm0LxXe2WkLs8" />
     <Meta
       name="description"
       content="Mon portfolio est un outil essentiel pour présenter mes compétences, mes réalisations. C'est une vitrine de mon travail, qui me permet de me présenter et de montrer ce que je suis capable de faire." />
