@@ -5,12 +5,12 @@
       class="langButton outline-none shadow-shadow1 flex justify-center items-center w-14 px-2 py-3 max-sm:w-12 max-sm:px-2 mr-3 h-5vh rounded-lg font-black active:brightness-150 hover:brightness-150 ease-out duration-300"
       @click="toggleLocale">
       <img
-        class="w-7"
+        class="w-7 rounded-sm"
         v-if="currentLocale === 'FR'"
         src="@/assets/images/items/FlagFrench.svg"
         alt="French Flag" />
       <img
-        class="w-7"
+        class="w-7 rounded-sm"
         v-else-if="currentLocale === 'EN'"
         src="@/assets/images/items/FlagEnglish.svg"
         alt="English Flag" />

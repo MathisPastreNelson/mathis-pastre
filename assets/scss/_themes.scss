@@ -32,6 +32,10 @@
     border: 1px solid $dark-theme-button-bg-color;
   }
 
+  .indicationElement {
+    background-color: $dark-accent-color;
+  }
+
   // Scroll
 
   main {
@@ -161,6 +165,10 @@
   }
   .logo {
     filter: hue-rotate(330deg) brightness(1.2);
+  }
+
+  .indicationElement {
+    background-color: $light-theme-button-bg-color;
   }
 
   .langButton {
