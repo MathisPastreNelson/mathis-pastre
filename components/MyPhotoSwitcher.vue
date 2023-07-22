@@ -26,14 +26,14 @@
   border-radius: 10px;
 }
 .img {
-  width: 80px;
   top: -15dvh;
   left: 50%;
-  transform: translate(-50%, -50%);
+
   height: auto;
   position: absolute;
 
   transition: 300ms ease;
+  transform: translate(-50%, -50%);
 
   border-radius: 50%;
   object-fit: cover;
@@ -61,7 +61,7 @@
   z-index: 1;
   opacity: 0;
   pointer-events: none;
-
+  transform: translate(-50%, -50%);
   border-radius: 0;
   width: 100%;
   height: 65dvh;

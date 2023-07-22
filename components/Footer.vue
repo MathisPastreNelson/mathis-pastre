@@ -6,7 +6,7 @@
         class="flex footerButton items-center text-sm justify-center font-semibold px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
         href="mailto:mathis.pastre@outlook.com">
         <img
-          class="pr-2"
+          class="pr-2 opacity-70"
           src="../assets//images/items/MailIcon.svg"
           alt="Mail" />
         Mail
@@ -17,7 +17,7 @@
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/mathis-pastre/">
         <img
-          class="pr-2"
+          class="pr-2 opacity-70"
           src="../assets//images/items/Linkedin.svg"
           alt="Linkedin" />
         Linkedin
@@ -28,7 +28,7 @@
         rel="noopener noreferrer"
         href="https://github.com/MathisPastreNelson">
         <img
-          class="pr-2"
+          class="pr-2 opacity-70"
           src="../assets//images/items/GithubIcon.svg"
           alt="github" />
         Github
