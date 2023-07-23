@@ -28,14 +28,14 @@ export default {
   position: absolute;
   top: 10dvh;
   right: 25%;
-  opacity: 0.7;
+  opacity: 0.8;
   z-index: 5;
 }
 
 .indicationElement {
-  width: 7px;
-  height: 15px;
+  width: 10px;
 
+  height: 15px;
   margin: 0 2px;
   transition: 300ms;
   border-radius: 0 0 2px 2px;

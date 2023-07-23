@@ -480,7 +480,21 @@
         </span>
       </div>
     </div>
-    <div class="current-slide-index absolute font-bold"></div>
+    <div class="current-slide-index absolute font-bold">
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+      <span class="spanIndex"></span>
+    </div>
   </div>
 </template>
 
@@ -587,12 +601,19 @@ export default {
           (index * -width + width / 2 + window.innerWidth / 2) +
           "px, 0, 0)";
 
+        // Add the "activeDiv" class to the corresponding span
         const currentSlideIndexDiv = document.querySelector(
           ".current-slide-index"
         );
-        currentSlideIndexDiv.textContent = `${index} / 13`;
+        const spanElements = currentSlideIndexDiv.getElementsByTagName("span");
+        for (let j = 0; j < spanElements.length; j++) {
+          if (j === index - 1) {
+            spanElements[j].classList.add("activeDiv");
+          } else {
+            spanElements[j].classList.remove("activeDiv");
+          }
+        }
       }
-
       function prev() {
         move(--currIndex);
       }
@@ -743,9 +764,20 @@ export default {
 }
 
 .current-slide-index {
-  bottom: 2dvh;
+  display: flex;
+  opacity: 0.8;
+  bottom: 0dvh;
+}
 
-  padding: 0.1rem 0.5rem;
-  border-radius: 8px;
+.spanIndex {
+  width: 10px;
+  height: 15px;
+  margin: 0 2px;
+  transition: 300ms;
+  border-radius: 2px 2px 0 0;
+}
+
+.activeDiv {
+  transform: scaleY(3.5);
 }
 </style>
