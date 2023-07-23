@@ -480,6 +480,7 @@
         </span>
       </div>
     </div>
+    <div class="current-slide-index absolute font-bold"></div>
   </div>
 </template>
 
@@ -585,6 +586,11 @@ export default {
           "translate3d(" +
           (index * -width + width / 2 + window.innerWidth / 2) +
           "px, 0, 0)";
+
+        const currentSlideIndexDiv = document.querySelector(
+          ".current-slide-index"
+        );
+        currentSlideIndexDiv.textContent = `${index} / 13`;
       }
 
       function prev() {
@@ -734,5 +740,12 @@ export default {
   border-right-width: 2px;
   transform: translate3d(-1px, 0, -40px) rotateY(90deg);
   transform-origin: 100%;
+}
+
+.current-slide-index {
+  bottom: 2dvh;
+
+  padding: 0.1rem 0.5rem;
+  border-radius: 8px;
 }
 </style>

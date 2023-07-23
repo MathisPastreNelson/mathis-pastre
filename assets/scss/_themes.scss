@@ -127,6 +127,11 @@
     }
   }
 
+  .current-slide-index {
+    border: 1px solid #eeff8fad;
+    background-color: #3e9ce9a8;
+  }
+
   // section4
   .section4Form {
     background-color: $dark-primary-color;
@@ -281,6 +286,11 @@
       border-bottom: 2px solid $light-secondary-color;
       border-right: 2px solid $light-secondary-color;
     }
+  }
+
+  .current-slide-index {
+    border: 1px solid $light-secondary-color;
+    background-color: #cdf5ffd7;
   }
   // section4
   .section4Form {
