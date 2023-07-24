@@ -79,6 +79,66 @@
   animation: animate2 4s ease-in-out infinite;
 }
 
+.titleBox::before {
+  content: "●";
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1rem;
+  color: #f19797b9;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 20%;
+  transform: translate(50%, 50%);
+
+  animation: 16s linear infinite reverse orbit-pullquote;
+}
+
+.titleBox::after {
+  content: "●";
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  color: #ecff4248;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 20%;
+  transform: translate(50%, 50%);
+  animation: 30s linear infinite orbit-pullquote;
+}
+
+.titleBox2::before {
+  content: "●";
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2rem;
+  color: #97f19f6e;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 5%;
+  transform: translate(50%, 50%);
+
+  animation: 8s linear infinite reverse orbit-pullquote;
+}
+
+.titleBox2::after {
+  content: "●";
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #ff42e67c;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 10%;
+  transform: translate(50%, 50%);
+  animation: 16s linear infinite orbit-pullquote;
+}
+
 @keyframes animate {
   0%,
   100% {
