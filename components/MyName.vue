@@ -52,7 +52,7 @@
 }
 .content h1 {
   color: #fff;
-
+  transition: 300ms;
   position: absolute;
   transform: translate(-50%, 10%);
 }
@@ -66,7 +66,7 @@
 }
 .content2 h2 {
   color: #fff;
-
+  transition: 300ms;
   position: absolute;
   transform: translate(-50%, 110%);
 }
