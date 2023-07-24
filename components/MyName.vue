@@ -1,103 +1,154 @@
 <template>
-  <div class="first-container share">
-    <h1 class="flex flex-wrap justify-center">
-      <div class="flex-none">
-        <span id="one">M</span><span>a</span><span>t</span><span>h</span>
-        <span>i</span><span>s</span>
+  <div class="opacity-90">
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInLeft 	">
+      <div class="titleBox">
+        <div class="content">
+          <h1>Mathis Pastre</h1>
+          <h1>Mathis Pastre</h1>
+        </div>
       </div>
-      <div class="flex-none">
-        <span></span>
-        <span>P</span><span>a</span><span>s</span><span>t</span><span>r</span
-        ><span>e</span>
+    </Animate>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInRight 	">
+      <div class="titleBox2">
+        <div class="content2">
+          <h2>{{ $t("title") }}</h2>
+          <h2>{{ $t("title") }}</h2>
+        </div>
       </div>
-    </h1>
-  </div>
-  <div v-if="$i18n.locale === 'fr'" class="second-container share">
-    <h1 class="flex flex-wrap justify-center">
-      <div class="flex-none">
-        <span>D</span><span>é</span><span>v</span><span>e</span><span>l</span>
-        <span>o</span><span>p</span><span>p</span><span>e</span><span>u</span
-        ><span>r</span><span></span>
-      </div>
-      <div class="flex-none"><span>W</span><span>e</span><span>b</span></div>
-    </h1>
-  </div>
-  <div v-else class="second-container share">
-    <h1 class="flex flex-wrap justify-center">
-      <div class="flex-none">
-        <span>W</span><span>e</span><span>b</span><span></span>
-      </div>
-      <div class="flex-none">
-        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span
-        ><span>o</span><span>p</span><span>e</span><span>r</span>
-      </div>
-    </h1>
+    </Animate>
   </div>
 </template>
 
 <style scoped>
-.first-container,
-.second-container {
-  cursor: default;
-  position: relative;
-}
-.second-container::before {
-  content: "●";
+.titleBox {
   display: flex;
+
+  white-space: nowrap;
   align-items: center;
-  justify-content: flex-end;
-  font-size: 3rem;
-  color: #e0e0e08a;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 40%;
-
-  left: 40%;
-
-  animation: 8s linear infinite reverse orbit-pullquote;
+  justify-content: center;
 }
-
-.second-container::after {
-  content: "●";
+.titleBox2 {
   display: flex;
+
+  white-space: nowrap;
   align-items: center;
-  font-size: 2rem;
-  color: #e7f3a13d;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 35%;
-
-  left: 35%;
-
-  animation: 16s linear infinite orbit-pullquote;
+  justify-content: center;
 }
-
-.first-container h1,
-.second-container h1 {
+.content {
   position: relative;
-  letter-spacing: 1px;
 }
-
-.first-container {
-  margin-bottom: 15px;
-}
-
-span {
-  display: inline-block;
+.content2 {
   position: relative;
-  margin-right: 5px;
 }
-span:after {
-  content: "";
+.content h1 {
+  color: #fff;
+
   position: absolute;
-  height: 100%;
-  width: 0;
-  top: 0;
-  left: 0;
-  transition: 0.6s;
-  z-index: -5;
+  transform: translate(-50%, 10%);
+}
+
+.content h1:nth-child(1) {
+  color: transparent;
+}
+
+.content h1:nth-child(2) {
+  animation: animate 4s ease-in-out infinite;
+}
+.content2 h2 {
+  color: #fff;
+
+  position: absolute;
+  transform: translate(-50%, 110%);
+}
+
+.content2 h2:nth-child(1) {
+  color: transparent;
+}
+
+.content2 h2:nth-child(2) {
+  animation: animate2 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    clip-path: polygon(
+      0% 48%,
+      18% 42%,
+      40.8% 40.8%,
+      61.2% 45.6%,
+      80.4% 60%,
+      100% 66%,
+      100% 0%,
+      0% 0%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 66%,
+      19.2% 67.2%,
+      39.6% 50%,
+      64.8% 48%,
+      84% 49.2%,
+      100% 55.2%,
+      100% 0%,
+      0% 0%
+    );
+  }
+
+  100% {
+    clip-path: polygon(
+      0% 48%,
+      18% 42%,
+      40.8% 40.8%,
+      61.2% 45.6%,
+      80.4% 60%,
+      100% 66%,
+      100% 0%,
+      0% 0%
+    );
+  }
 }
 </style>
 <script></script>

@@ -329,11 +329,3 @@
   }
 }
 // DARK THEME TITLE ANIMATION
-.dark {
-  @include share-title-animation(#13171b94);
-}
-
-// LIGHT THEME TITLE ANIMATION
-.light {
-  @include share-title-animation(#f3f3f373);
-}

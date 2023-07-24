@@ -5,7 +5,7 @@ export default defineI18nConfig(() => ({
   messages: {
     en: {
       // Section 1
-      title: "Front-end Developer",
+      title: "Web Developer",
       switchLocaleButton: "EN",
       hoverImgText: "Hover me",
       presentationTexte: `Passionate about web development and fueled by creativity, I have
@@ -75,7 +75,7 @@ export default defineI18nConfig(() => ({
       // Section 1
 
       hoverImgText: "Survolez moi",
-      title: "Développeur front-end",
+      title: "Développeur Web",
       switchLocaleButton: "FR",
       presentationTexte: `Passionné par le développement web et animé par la créativité, j'ai
 acquis une expertise solide grâce à la réalisation de nombreux projets.

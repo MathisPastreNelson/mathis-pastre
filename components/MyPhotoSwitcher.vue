@@ -58,7 +58,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  z-index: 1;
+  z-index: 10;
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
