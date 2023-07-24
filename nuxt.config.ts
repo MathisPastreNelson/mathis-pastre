@@ -10,7 +10,11 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/scss/index.scss"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/i18n",
+    "@jpcreativemedia/nuxt-animate.css",
+  ],
   i18n: {
     vueI18n: "./i18n.config.ts",
   },

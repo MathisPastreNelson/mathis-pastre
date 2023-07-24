@@ -1,21 +1,36 @@
 <template>
   <div class="section4BackgroundTexture"></div>
+
   <form
     class="section4Form flex justify-center items-center flex-col my-4 px-6 py-4 duration-300"
     @submit.prevent="handleSubmit">
-    <h3
-      class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
-      {{ $t("contactTitle") }}
-    </h3>
-    <h4
-      class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
-      {{ $t("contactSubTitle") }}
-    </h4>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInDown 	">
+      <h3
+        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+        {{ $t("contactTitle") }}
+      </h3>
+      <h4
+        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+        {{ $t("contactSubTitle") }}
+      </h4>
+    </Animate>
     <div class="divider m-4"></div>
     <label
       class="text-2xl max-sm:text-xl w-full text-left pb-2 ml-2"
       for="email">
-      Email
+      <Animate
+        delay=""
+        duration=""
+        repeat=""
+        v-bind:scroll="true"
+        animation="animate__fadeInRight 	">
+        Email
+      </Animate>
     </label>
     <input
       id="email"
@@ -27,7 +42,14 @@
     <label
       class="text-2xl max-sm:text-xl w-full ml-2 py-2 text-left"
       for="message">
-      Message
+      <Animate
+        delay=""
+        duration=""
+        repeat=""
+        v-bind:scroll="true"
+        animation="animate__fadeInRight 	">
+        Message
+      </Animate>
     </label>
     <textarea
       id="message"
@@ -35,14 +57,21 @@
       name="message"
       v-model="message"
       required></textarea>
-    <button
-      class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
-      <span class="font-semibold"> {{ $t("contactSend") }}</span>
-      <img
-        class="ml-3 svg-icon w-4"
-        src="../assets/images/items/sendMessage.svg"
-        alt="SVG Icon" />
-    </button>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInUp 	">
+      <button
+        class="visitButton mt-3 flex items-center justify-evenly py-2 px-4 rounded-xl buttonEffect relative duration-300">
+        <span class="font-semibold"> {{ $t("contactSend") }}</span>
+        <img
+          class="ml-3 svg-icon w-4"
+          src="../assets/images/items/sendMessage.svg"
+          alt="SVG Icon" />
+      </button>
+    </Animate>
   </form>
 </template>
 

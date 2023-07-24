@@ -6,10 +6,18 @@
         class="logo"
         src="../assets/images/items/MP-logo.webp"
         alt="header logo" />
-      <div class="flex justify-center items-center">
-        <LanguageSwitchButton />
-        <ThemeToggleButton :theme="theme" @toggle-theme="toggleTheme" />
-      </div>
+
+      <Animate
+        delay=""
+        duration=""
+        repeat=""
+        v-bind:scroll="true"
+        animation="animate__fadeInDown 	">
+        <div class="flex justify-center items-center">
+          <LanguageSwitchButton />
+          <ThemeToggleButton :theme="theme" @toggle-theme="toggleTheme" />
+        </div>
+      </Animate>
     </header>
 
     <slot></slot>

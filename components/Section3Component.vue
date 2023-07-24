@@ -11,11 +11,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">AI Generation</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("aigenerationDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    AI Generation
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("aigenerationDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -30,11 +46,22 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
+
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/aigeneration.webp"
                   alt="" />
-                <p class="absolute right-[5%] bottom-[5%]">07/2023</p>
+
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp">
+                    07/2023
+                  </Animate>
+                </p>
               </div>
             </div>
             <div class="item__3d-frame__box item__3d-frame__box--left"></div>
@@ -46,11 +73,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Tesla Clone</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("teslaDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Tesla Clone
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("teslaDescribe") }}
+                  </p></Animate
+                >
                 <a
                   class="mx-auto"
                   target="_blank"
@@ -64,9 +107,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">06/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >06/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/tesla.webp"
                   alt="" />
               </div>
@@ -80,11 +132,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Mouffette</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("mouffetteDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Mouffette
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("mouffetteDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -99,9 +167,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">05/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >05/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/mouffette.svg"
                   alt="" />
               </div>
@@ -115,11 +192,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">France en transe</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("franceentranseDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    France en transe
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("franceentranseDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -134,9 +227,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">04/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >04/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/franceEnTranse.webp"
                   alt="" />
               </div>
@@ -150,11 +252,25 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Cinémathis</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("cinemathisDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">Cinémathis</h3>
+                </Animate>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("cinemathisDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -169,9 +285,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">03/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >03/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/cinemathis.webp"
                   alt="" />
               </div>
@@ -185,13 +310,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">
-                  Neuilly-le-Brignon
-                </h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("mairieDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Neuilly-le-Brignon
+                  </h3>
+                </Animate>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("mairieDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -206,9 +345,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">02/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >02/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/mairie.webp"
                   alt="" />
               </div>
@@ -222,13 +370,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">
-                  Role-Playing-Groubi
-                </h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("rpgroubiDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Role-Playing-Groubi
+                  </h3>
+                </Animate>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("rpgroubiDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -243,9 +405,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">01/2023</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >01/2023</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/rpg.webp"
                   alt="" />
               </div>
@@ -259,11 +430,25 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Kasa</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("kasaDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">Kasa</h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("kasaDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -278,9 +463,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">12/2022</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >12/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/kasa.webp"
                   alt="" />
               </div>
@@ -294,11 +488,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Piiiquante</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("piquanteDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Piiiquante
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("piquanteDescribe") }}
+                  </p></Animate
+                >
                 <a
                   class="mx-auto"
                   target="_blank"
@@ -312,9 +522,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">10/2022</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >10/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/flame.svg"
                   alt="" />
               </div>
@@ -328,11 +547,25 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Kanap</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("kasaDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">Kanap</h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("kasaDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -347,9 +580,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">09/2022</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >09/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/kanap.webp"
                   alt="" />
               </div>
@@ -363,11 +605,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">La panthère</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("panthereDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    La panthère
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("panthereDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -382,9 +640,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >08/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/panthere.webp"
                   alt="" />
               </div>
@@ -398,11 +665,27 @@
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
-                <h3 class="font-semibold text-2xl Cinzel">Oh My Food</h3>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("ohmyfoodDescribe") }}
-                </p>
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInDown">
+                  <h3 class="font-semibold text-2xl Cinzel">
+                    Oh My Food
+                  </h3></Animate
+                >
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("ohmyfoodDescribe") }}
+                  </p></Animate
+                >
 
                 <a
                   class="mx-auto"
@@ -417,9 +700,19 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">08/2022</p>
+
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp"
+                    >08/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/ohmyfood.svg"
                   alt="" />
               </div>
@@ -434,13 +727,28 @@
               <div
                 class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
                 <div class="flex justify-center items-center">
-                  <h3 class="font-semibold text-2xl Cinzel">Booki</h3>
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInDown">
+                    <h3 class="font-semibold text-2xl Cinzel">
+                      Booki
+                    </h3></Animate
+                  >
                 </div>
-                <p
-                  class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
-                  {{ $t("bookiDescribe") }}
-                </p>
-
+                <Animate
+                  delay=""
+                  duration=""
+                  repeat=""
+                  v-bind:scroll="true"
+                  animation="animate__fadeInUp">
+                  <p
+                    class="text-lg leading-6 max-sm:leading-5 max-sm:text-base overflow-ellipsis overflow-hidden">
+                    {{ $t("bookiDescribe") }}
+                  </p>
+                </Animate>
                 <a
                   class="mx-auto"
                   target="_blank"
@@ -454,9 +762,18 @@
                       alt="SVG Icon" />
                   </button>
                 </a>
-                <p class="absolute right-[5%] bottom-[5%]">07/2022</p>
+                <p class="absolute right-[5%] bottom-[5%]">
+                  <Animate
+                    delay=""
+                    duration=""
+                    repeat=""
+                    v-bind:scroll="true"
+                    animation="animate__fadeInUp">
+                    07/2022</Animate
+                  >
+                </p>
                 <img
-                  class="absolute left-[5%] bottom-[5%] bounce rounded-md floatProjectIcon"
+                  class="absolute left-[5%] bottom-[5%] bounceClassic rounded-md floatProjectIcon"
                   src="~/assets/images/projects/logos/Booki.webp"
                   alt="" />
               </div>
@@ -469,17 +786,28 @@
       </div>
     </div>
 
-    <div class="carousel__buttons_box relative">
-      <!-- Boutons controlant le carroussel -->
-      <div class="data-container carousel__buttons_box">
-        <span class="btn-left carousel__buttons carousel__prev mr-3">
-          <img src="../assets/images/items/leftArrow.svg" alt="" srcset="" />
-        </span>
-        <span class="btn carousel__buttons carousel__next ml-3">
-          <img src="../assets/images/items/rightArrow.svg " alt="" srcset="" />
-        </span>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInUp 	">
+      <div class="carousel__buttons_box relative">
+        <!-- Boutons controlant le carroussel -->
+        <div class="data-container carousel__buttons_box">
+          <span class="btn-left carousel__buttons carousel__prev mr-3">
+            <img src="../assets/images/items/leftArrow.svg" alt="" srcset="" />
+          </span>
+          <span class="btn carousel__buttons carousel__next ml-3">
+            <img
+              src="../assets/images/items/rightArrow.svg "
+              alt=""
+              srcset="" />
+          </span>
+        </div>
       </div>
-    </div>
+    </Animate>
+
     <div class="current-slide-index absolute font-bold">
       <span class="spanIndex"></span>
       <span class="spanIndex"></span>

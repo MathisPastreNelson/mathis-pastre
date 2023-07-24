@@ -1,39 +1,46 @@
 <template>
   <footer
-    class="min-h-30px footerHeight flex items-center justify-end duration-300 text-xl px-10 max-sm:px-2">
-    <nav class="flex justify-center items-center">
-      <a
-        class="flex footerButton items-center text-sm justify-center font-semibold px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
-        href="mailto:mathis.pastre@outlook.com">
-        <img
-          class="pr-2 opacity-70"
-          src="../assets//images/items/MailIcon.svg"
-          alt="Mail" />
-        Mail
-      </a>
-      <a
-        class="flex footerButton items-center text-sm justify-center font-semibold max-sm:mx-1 mx-4 px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/mathis-pastre/">
-        <img
-          class="pr-2 opacity-70"
-          src="../assets//images/items/Linkedin.svg"
-          alt="Linkedin" />
-        Linkedin
-      </a>
-      <a
-        class="flex footerButton items-center text-sm justify-center font-semibold px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/MathisPastreNelson">
-        <img
-          class="pr-2 opacity-70"
-          src="../assets//images/items/GithubIcon.svg"
-          alt="github" />
-        Github
-      </a>
-    </nav>
+    class="min-h-30px footerHeight flex items-center justify-end duration-300 text-xl px-10 max-sm:px-2 overflow-hidden">
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInUp 	">
+      <nav class="flex justify-center items-center">
+        <a
+          class="flex footerButton items-center text-sm justify-center font-semibold px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
+          href="mailto:mathis.pastre@outlook.com">
+          <img
+            class="pr-2 opacity-70"
+            src="../assets//images/items/MailIcon.svg"
+            alt="Mail" />
+          Mail
+        </a>
+        <a
+          class="flex footerButton items-center text-sm justify-center font-semibold max-sm:mx-1 mx-4 px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/mathis-pastre/">
+          <img
+            class="pr-2 opacity-70"
+            src="../assets//images/items/Linkedin.svg"
+            alt="Linkedin" />
+          Linkedin
+        </a>
+        <a
+          class="flex footerButton items-center text-sm justify-center font-semibold px-3 duration-300 hover:scale-x-110 shadow-shadow1 hover:bg-slate-500 brightness-125 hover:brightness-200 rounded hover:rounded-xl footerElements"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/MathisPastreNelson">
+          <img
+            class="pr-2 opacity-70"
+            src="../assets//images/items/GithubIcon.svg"
+            alt="github" />
+          Github
+        </a>
+      </nav>
+    </Animate>
   </footer>
 </template>
 

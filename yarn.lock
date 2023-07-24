@@ -478,6 +478,16 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
+"@jpcreativemedia/nuxt-animate.css@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/@jpcreativemedia/nuxt-animate.css/-/nuxt-animate.css-1.0.6.tgz"
+  integrity sha512-VxHwW3mnuBf7+1lpMjoy3eCHwE2fjNOZSR0DY5TlAZI4wbNHvrq8Mwectp7nOgPDDVbaF2hpza4ijDRdB4c2JQ==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    "@vueuse/components" "^9.6.0"
+    "@vueuse/core" "^9.6.0"
+    "@vueuse/nuxt" "^9.6.0"
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
@@ -706,7 +716,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@^3.4.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.1", "@nuxt/kit@3.6.3":
+"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.4.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.1", "@nuxt/kit@3.6.3":
   version "3.6.3"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.6.3.tgz"
   integrity sha512-Eq+2whSIsZ+2IdB9J3okYOc+nZHassjt13vJZowxO3dw0rsXTnWGFHx40IX+wrBYE6eiOHjU/cXQ1XHdiU2GyQ==
@@ -1081,6 +1091,11 @@
   resolved "https://registry.npmjs.org/@types/resolve/-/resolve-1.20.2.tgz"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
 
+"@types/web-bluetooth@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmjs.org/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz"
+  integrity sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==
+
 "@unhead/dom@1.1.32":
   version "1.1.32"
   resolved "https://registry.npmjs.org/@unhead/dom/-/dom-1.1.32.tgz"
@@ -1279,6 +1294,48 @@
   version "3.3.4"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
+
+"@vueuse/components@^9.6.0":
+  version "9.13.0"
+  resolved "https://registry.npmjs.org/@vueuse/components/-/components-9.13.0.tgz"
+  integrity sha512-UJ8PjQ4SGb2rsVIy9vhEc6aCu+3+2cc+xEfGNX8/M1NKIuL2Vo6c2Kc2fYFaRzWZkP8HWXu+IcwvnAzL44IEFA==
+  dependencies:
+    "@vueuse/core" "9.13.0"
+    "@vueuse/shared" "9.13.0"
+    vue-demi "*"
+
+"@vueuse/core@^9.6.0", "@vueuse/core@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.npmjs.org/@vueuse/core/-/core-9.13.0.tgz"
+  integrity sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.13.0"
+    "@vueuse/shared" "9.13.0"
+    vue-demi "*"
+
+"@vueuse/metadata@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-9.13.0.tgz"
+  integrity sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==
+
+"@vueuse/nuxt@^9.6.0":
+  version "9.13.0"
+  resolved "https://registry.npmjs.org/@vueuse/nuxt/-/nuxt-9.13.0.tgz"
+  integrity sha512-JunH/w6nFIwCyaZ0s+pfrYFMfBzGfhkwmFPz7ogHFmb71Ty/5HINrYOAOZCXpN44X6QH6FiJq/wuLLdvYzqFUw==
+  dependencies:
+    "@nuxt/kit" "^3.2.0"
+    "@vueuse/core" "9.13.0"
+    "@vueuse/metadata" "9.13.0"
+    local-pkg "^0.4.3"
+    vue-demi "*"
+
+"@vueuse/shared@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-9.13.0.tgz"
+  integrity sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==
+  dependencies:
+    vue-demi "*"
 
 "@webassemblyjs/ast@^1.11.5", "@webassemblyjs/ast@1.11.6":
   version "1.11.6"
@@ -4943,7 +5000,7 @@ nuxi@3.6.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@^3.6.1, nuxt@^3.6.2:
+nuxt@^3.0.0, nuxt@^3.6.1, nuxt@^3.6.2:
   version "3.6.3"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.6.3.tgz"
   integrity sha512-FiD2Ok81wPvQjNBO61h1fA7aqL0EloNspDC05eoQZl13kCthn7103esJNS+KAZNlPcXOYruEe3rGt066Sb/TwA==
@@ -7006,6 +7063,11 @@ vue-bundle-renderer@^1.0.3:
   integrity sha512-EfjX+5TTUl70bki9hPuVp+54JiZOvFIfoWBcfXsSwLzKEiDYyHNi5iX8srnqLIv3YRnvxgbntdcG1WPq0MvffQ==
   dependencies:
     ufo "^1.1.1"
+
+vue-demi@*:
+  version "0.14.5"
+  resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.5.tgz"
+  integrity sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==
 
 vue-demi@^0.13.11, vue-demi@^0.13.5:
   version "0.13.11"

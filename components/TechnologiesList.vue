@@ -1,43 +1,58 @@
 <template>
-  <div
-    class="tooltip_container p-1 flex items-center justify-evenly w-full mx-auto">
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/html.svg" alt="HTML5" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >HTML</span
-      >
-    </button>
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/css.svg" alt="CSS3" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >CSS</span
-      >
-    </button>
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/javascript.svg" alt="JavaScript" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >Javascript
-      </span>
-    </button>
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/react.svg" alt="React" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >React</span
-      >
-    </button>
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/vue.svg" alt="VueJs" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >VueJS</span
-      >
-    </button>
-    <button class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
-      <img src="../assets/images/items/icons/wordpress.svg" alt="WordPress" />
-      <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-        >WordPress</span
-      >
-    </button>
-  </div>
+  <Animate
+    delay=""
+    duration=""
+    repeat=""
+    v-bind:scroll="true"
+    animation="animate__fadeInUp 	">
+    <div
+      class="tooltip_container p-1 flex items-center justify-evenly w-full mx-auto">
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img src="../assets/images/items/icons/html.svg" alt="HTML5" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >HTML</span
+        >
+      </button>
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img src="../assets/images/items/icons/css.svg" alt="CSS3" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >CSS</span
+        >
+      </button>
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img
+          src="../assets/images/items/icons/javascript.svg"
+          alt="JavaScript" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >Javascript
+        </span>
+      </button>
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img src="../assets/images/items/icons/react.svg" alt="React" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >React</span
+        >
+      </button>
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img src="../assets/images/items/icons/vue.svg" alt="VueJs" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >VueJS</span
+        >
+      </button>
+      <button
+        class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
+        <img src="../assets/images/items/icons/wordpress.svg" alt="WordPress" />
+        <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
+          >WordPress</span
+        >
+      </button>
+    </div>
+  </Animate>
 </template>
 
 <style scoped>

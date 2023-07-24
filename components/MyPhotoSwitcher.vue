@@ -22,7 +22,7 @@
   bottom: -15%;
 
   text-align: center;
-  animation: bounce 3s infinite;
+  animation: bounceClassic 3s infinite;
   border-radius: 10px;
 }
 .img {

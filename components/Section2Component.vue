@@ -4,85 +4,127 @@
   <div
     class="section2BackgroundTexture Section2Texture2Position bounceXlReverse"></div>
   <div class="section2 px-6 py-4 my-4 relative">
-    <h2
-      class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
-      {{ $t("section2title") }}
-    </h2>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInDown 	">
+      <h2
+        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+        {{ $t("section2title") }}
+      </h2>
+    </Animate>
     <div class="divider my-4"></div>
     <!-- Articles -->
-    <div class="flip-box cursor-default">
-      <div class="flip-box-inner">
-        <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
-          <img
-            class="w-6 bounceH iconHover"
-            src="../assets/images/items/selection.svg"
-            alt="Hover me !" />
-          {{ $t("IntegrationWebTitle") }}
-        </h3>
-        <p class="flip-box-back font-semibold">
-          {{ $t("IntegrationWebDescribe") }}
-        </p>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInLeft 	">
+      <div class="flip-box cursor-default">
+        <div class="flip-box-inner">
+          <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
+            <img
+              class="w-6 bounceH iconHover"
+              src="../assets/images/items/selection.svg"
+              alt="Hover me !" />
+            {{ $t("IntegrationWebTitle") }}
+          </h3>
+          <p class="flip-box-back font-semibold">
+            {{ $t("IntegrationWebDescribe") }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="flip-box cursor-default">
-      <div class="flip-box-inner">
-        <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
-          <img
-            class="w-6 bounceHR iconHover"
-            src="../assets/images/items/selection.svg"
-            alt="Hover me !" />
-          {{ $t("customDevTitle") }}
-        </h3>
+    </Animate>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInRight 	">
+      <div class="flip-box cursor-default">
+        <div class="flip-box-inner">
+          <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
+            <img
+              class="w-6 bounceHR iconHover"
+              src="../assets/images/items/selection.svg"
+              alt="Hover me !" />
+            {{ $t("customDevTitle") }}
+          </h3>
 
-        <p class="flip-box-back font-semibold">
-          {{ $t("customDevDescribe") }}
-        </p>
+          <p class="flip-box-back font-semibold">
+            {{ $t("customDevDescribe") }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="flip-box cursor-default">
-      <div class="flip-box-inner">
-        <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
-          <img
-            class="w-6 bounceH iconHover"
-            src="../assets/images/items/selection.svg"
-            alt="Hover me !" />
-          {{ $t("dynamicPagesTitle") }}
-        </h3>
+    </Animate>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInLeft 	">
+      <div class="flip-box cursor-default">
+        <div class="flip-box-inner">
+          <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
+            <img
+              class="w-6 bounceH iconHover"
+              src="../assets/images/items/selection.svg"
+              alt="Hover me !" />
+            {{ $t("dynamicPagesTitle") }}
+          </h3>
 
-        <p class="flip-box-back font-semibold">
-          {{ $t("dynamicPagesDescribe") }}
-        </p>
+          <p class="flip-box-back font-semibold">
+            {{ $t("dynamicPagesDescribe") }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="flip-box cursor-default">
-      <div class="flip-box-inner">
-        <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
-          <img
-            class="w-6 bounceHR iconHover"
-            src="../assets/images/items/selection.svg"
-            alt="Hover me !" />
-          {{ $t("SEOTitle") }}
-        </h3>
-        <p class="flip-box-back font-semibold">
-          {{ $t("SEODescribe") }}
-        </p>
+    </Animate>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInRight 	">
+      <div class="flip-box cursor-default">
+        <div class="flip-box-inner">
+          <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
+            <img
+              class="w-6 bounceHR iconHover"
+              src="../assets/images/items/selection.svg"
+              alt="Hover me !" />
+            {{ $t("SEOTitle") }}
+          </h3>
+          <p class="flip-box-back font-semibold">
+            {{ $t("SEODescribe") }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="flip-box cursor-default">
-      <div class="flip-box-inner">
-        <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
-          <img
-            class="w-6 bounceH iconHover"
-            src="../assets/images/items/selection.svg"
-            alt="Hover me !" />
-          {{ $t("responsiveDesignTitle") }}
-        </h3>
+    </Animate>
+    <Animate
+      delay=""
+      duration=""
+      repeat=""
+      v-bind:scroll="true"
+      animation="animate__fadeInLeft 	">
+      <div class="flip-box cursor-default">
+        <div class="flip-box-inner">
+          <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
+            <img
+              class="w-6 bounceH iconHover"
+              src="../assets/images/items/selection.svg"
+              alt="Hover me !" />
+            {{ $t("responsiveDesignTitle") }}
+          </h3>
 
-        <p class="flip-box-back font-semibold">
-          {{ $t("responsiveDesignDescribe") }}
-        </p>
+          <p class="flip-box-back font-semibold">
+            {{ $t("responsiveDesignDescribe") }}
+          </p>
+        </div>
       </div>
-    </div>
+    </Animate>
     <div class="divider my-4"></div>
     <TechnologiesList />
   </div>

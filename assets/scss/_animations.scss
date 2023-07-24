@@ -18,7 +18,7 @@
   }
 }
 
-@-webkit-keyframes bounce {
+@-webkit-keyframes bounceClassic {
   0% {
     transform: translateY(-5px);
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@keyframes bounce {
+@keyframes bounceClassic {
   0% {
     transform: translateY(-5px);
   }
@@ -271,8 +271,8 @@
   animation: zoom 60s infinite linear;
 }
 
-.bounce {
-  animation: bounce 3s infinite ease-in-out;
+.bounceClassic {
+  animation: bounceClassic 3s infinite ease-in-out;
 }
 .bounceXl {
   animation: bounceXl 5s infinite ease-in-out;
@@ -295,6 +295,38 @@
   -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.scrolled-fade-in-from-right {
+  animation: fade-in-from-right 2s forwards;
+}
+
+@keyframes fade-in-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.scrolled-fade-out-from-right {
+  animation: fade-out-from-right 2s forwards;
+}
+
+@keyframes fade-out-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 // DARK THEME TITLE ANIMATION
 .dark {
