@@ -41,10 +41,10 @@
 
 .img-01 {
   background-image: url(../assets/images/items/moi-8bit.webp);
-  background-color: rgba(255, 255, 255, 0.212);
+  background-color: rgba(114, 120, 173, 0.534);
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: cover;
+  background-size: 90%;
   z-index: 2;
   width: 80px;
   height: 80px;
