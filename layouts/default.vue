@@ -29,7 +29,7 @@ import { ref, onMounted } from "vue";
 
 import ThemeLogic from "~/components/scripts/ThemeToggleButton.js";
 
-const theme = ref("light");
+const theme = ref("dark");
 
 const toggleTheme = () => {
   theme.value = theme.value === "light" ? "dark" : "light";

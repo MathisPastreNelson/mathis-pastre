@@ -3,7 +3,7 @@
     <Title>Portfolio Mathis Pastre</Title>
     <Meta
       name="description"
-      content="Mon portfolio est un outil essentiel pour présenter mes compétences, mes réalisations. C'est une vitrine de mon travail, qui me permet de me présenter et de montrer ce que je suis capable de faire." />
+      content="Vous trouverez dans mon portfolio, mes réalisations, mes services, une petite présentation ainsi qu'un petit formulaire pour me joindre. C'est une vitrine de mon travail, qui me permet de me présenter et de montrer ce que je suis capable de faire." />
   </Head>
 
   <NuxtLayout>

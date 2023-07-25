@@ -1,7 +1,7 @@
 // i18n.config.js
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: "en",
+  locale: "fr",
   messages: {
     en: {
       // Section 1

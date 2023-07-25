@@ -1,11 +1,11 @@
 <template>
-  <div class="opacity-90">
+  <div class="opacity-90 font-thin">
     <Animate
       delay=""
       duration=""
       repeat=""
       v-bind:scroll="true"
-      animation="animate__fadeInLeft 	">
+      animation="animate__lightSpeedInRight 	">
       <div class="titleBox">
         <div class="content">
           <h1>Mathis Pastre</h1>
@@ -18,7 +18,7 @@
       duration=""
       repeat=""
       v-bind:scroll="true"
-      animation="animate__fadeInRight 	">
+      animation="animate__lightSpeedInLeft 	">
       <div class="titleBox2">
         <div class="content2">
           <h2>{{ $t("title") }}</h2>
@@ -83,16 +83,15 @@
   content: "●";
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-size: 1rem;
   color: #f19797b9;
   position: absolute;
   z-index: -1;
-  top: 0;
-  width: 20%;
-  transform: translate(50%, 50%);
 
-  animation: 16s linear infinite reverse orbit-pullquote;
+  width: 15%;
+
+  animation: 24s linear infinite reverse orbit-pullquote;
 }
 
 .titleBox::after {
@@ -104,25 +103,25 @@
   position: absolute;
   z-index: -1;
   bottom: 0;
-  width: 20%;
+  width: 25%;
   transform: translate(50%, 50%);
-  animation: 30s linear infinite orbit-pullquote;
+  animation: 18s linear infinite orbit-pullquote;
 }
 
 .titleBox2::before {
   content: "●";
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-size: 2rem;
   color: #97f19f6e;
   position: absolute;
   z-index: -1;
   top: 0;
-  width: 5%;
+  width: 35%;
   transform: translate(50%, 50%);
 
-  animation: 8s linear infinite reverse orbit-pullquote;
+  animation: 28s linear infinite reverse orbit-pullquote;
 }
 
 .titleBox2::after {
@@ -130,13 +129,13 @@
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  color: #ff42e67c;
+  color: #7276b148;
   position: absolute;
   z-index: -1;
   bottom: 0;
-  width: 10%;
+  width: 45%;
   transform: translate(50%, 50%);
-  animation: 16s linear infinite orbit-pullquote;
+  animation: 36s linear infinite orbit-pullquote;
 }
 
 @keyframes animate {

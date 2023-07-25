@@ -22,7 +22,7 @@
 export default {
   data() {
     return {
-      currentLocale: "EN",
+      currentLocale: "FR",
     };
   },
 
