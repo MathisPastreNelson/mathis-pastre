@@ -31,7 +31,7 @@
 
   height: auto;
   position: absolute;
-
+  cursor: url("../assets/cursor/zoom.svg"), default;
   transition: 300ms ease;
   transform: translate(-50%, -50%);
 

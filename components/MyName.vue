@@ -32,14 +32,14 @@
 <style scoped>
 .titleBox {
   display: flex;
-
+  cursor: url("../assets/cursor/classic.svg"), default;
   white-space: nowrap;
   align-items: center;
   justify-content: center;
 }
 .titleBox2 {
   display: flex;
-
+  cursor: url("../assets/cursor/classic.svg"), default;
   white-space: nowrap;
   align-items: center;
   justify-content: center;

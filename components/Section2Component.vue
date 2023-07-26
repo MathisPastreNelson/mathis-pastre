@@ -10,8 +10,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInDown 	">
-      <h2
-        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+      <h2 class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel">
         {{ $t("section2title") }}
       </h2>
     </Animate>
@@ -23,7 +22,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInLeft 	">
-      <div class="flip-box cursor-default">
+      <div class="flip-box">
         <div class="flip-box-inner">
           <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
             <img
@@ -44,7 +43,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInRight 	">
-      <div class="flip-box cursor-default">
+      <div class="flip-box">
         <div class="flip-box-inner">
           <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
             <img
@@ -66,7 +65,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInLeft 	">
-      <div class="flip-box cursor-default">
+      <div class="flip-box">
         <div class="flip-box-inner">
           <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
             <img
@@ -88,7 +87,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInRight 	">
-      <div class="flip-box cursor-default">
+      <div class="flip-box">
         <div class="flip-box-inner">
           <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
             <img
@@ -109,7 +108,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInLeft 	">
-      <div class="flip-box cursor-default">
+      <div class="flip-box">
         <div class="flip-box-inner">
           <h3 class="flip-box-front text-xl max-sm:text-xl font-semibold">
             <img
@@ -151,6 +150,7 @@
 .flip-box {
   perspective: 1000px;
   height: 3rem;
+  cursor: url("../assets/cursor/classic.svg"), default;
 }
 
 .flip-box-inner {

@@ -10,12 +10,10 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInDown 	">
-      <h3
-        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+      <h3 class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel">
         {{ $t("contactTitle") }}
       </h3>
-      <h4
-        class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel cursor-default">
+      <h4 class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel">
         {{ $t("contactSubTitle") }}
       </h4>
     </Animate>
@@ -76,9 +74,14 @@
 </template>
 
 <style scoped>
+label {
+  cursor: url("../assets/cursor/write.svg"), default;
+}
+
 input:hover,
 textarea:hover {
   box-shadow: 0px 0px 40px 0px rgba(0, 139, 163, 0.76);
+  cursor: url("../assets/cursor/write.svg"), default;
 }
 </style>
 

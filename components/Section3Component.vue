@@ -10,7 +10,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -60,7 +60,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -110,7 +110,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -161,7 +161,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -212,7 +212,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -263,7 +263,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -314,7 +314,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -365,7 +365,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -414,7 +414,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -464,7 +464,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -513,7 +513,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -564,7 +564,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <Animate
                   delay=""
                   duration=""
@@ -615,7 +615,7 @@
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
               <div
-                class="h-full flex justify-evenly align-middle flex-col px-3 cursor-default">
+                class="h-full flex justify-evenly align-middle flex-col px-3">
                 <div class="flex justify-center items-center">
                   <Animate
                     delay=""
@@ -894,7 +894,7 @@ export default {
 .carousel__next {
   bottom: 0;
   transition: transform 0.25s ease;
-  cursor: pointer;
+  cursor: url("../assets/cursor/cursor.svg"), default;
 }
 
 .carousel__prev:hover,

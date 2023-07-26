@@ -8,7 +8,6 @@ $btn-hover-size: 110%;
 $btn-hover-height: 115%;
 
 @mixin button-commons {
-  cursor: pointer;
   position: relative;
   padding: $btn-padding;
   transition: $btn-transition;

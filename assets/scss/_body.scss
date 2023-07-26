@@ -24,12 +24,18 @@ body {
   padding: 0;
   line-height: 1;
   font-family: $font-cormorant;
+  cursor: url("../cursor/classic.svg"), default;
 }
 
 // Main and Scroll Container
 main {
   height: 100vh; // Full viewport height
   height: 100dvh; // Full viewport height
+}
+
+button,
+a {
+  cursor: url("../cursor/cursor.svg"), default;
 }
 
 .scroll-container {
