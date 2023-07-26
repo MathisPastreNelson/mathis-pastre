@@ -16,7 +16,7 @@
     "nuxt": "^3.6.2"
   },
   "dependencies": {
-    "@jpcreativemedia/nuxt-animate.css": "^1.0.6",
+        "@jpcreativemedia/nuxt-animate.css": "^1.0.6",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2"
   }
