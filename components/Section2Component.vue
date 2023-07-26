@@ -147,20 +147,6 @@
   animation: 16s linear infinite reverse orbit-pullquote;
 }
 
-.section2::after {
-  content: "●";
-  display: flex;
-  align-items: center;
-  font-size: 3rem;
-  color: #42d3ff7c;
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
-  width: 100%;
-  left: 0%;
-
-  animation: 30s linear infinite orbit-pullquote;
-}
 /* Flip-box */
 .flip-box {
   perspective: 1000px;

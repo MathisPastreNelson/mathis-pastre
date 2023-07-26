@@ -96,6 +96,9 @@
     background-color: $dark-primary-color;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.425);
   }
+  .section2Element::after {
+    color: #dac96962;
+  }
 
   .divider {
     width: 100%;
@@ -260,6 +263,10 @@
   .section2 {
     background-color: #cfcfcf42;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.068);
+  }
+
+  .section2Element::after {
+    color: #dcee38c4;
   }
 
   .divider {

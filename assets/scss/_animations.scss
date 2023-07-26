@@ -8,7 +8,45 @@
     transform: rotate(360deg);
   }
 }
-
+// Les animations
+@keyframes orbit-planet {
+  0% {
+    left: -8rem;
+    top: 0vh;
+  }
+  25% {
+    top: 8vh;
+  }
+  50% {
+    top: 10vh;
+  }
+  75% {
+    top: 8vh;
+  }
+  100% {
+    left: 100vw;
+    top: 0vh;
+  }
+}
+@keyframes orbit-planet2 {
+  0% {
+    left: -8rem;
+    bottom: 0vh;
+  }
+  25% {
+    bottom: 8vh;
+  }
+  50% {
+    bottom: 10vh;
+  }
+  75% {
+    bottom: 8vh;
+  }
+  100% {
+    left: 100vw;
+    bottom: 0vh;
+  }
+}
 @keyframes fadein {
   0% {
     opacity: 0;

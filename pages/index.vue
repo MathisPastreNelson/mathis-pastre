@@ -17,7 +17,7 @@
       </section>
       <!-- Section 2 -->
       <section
-        class="flex items-center justify-center scroll-section sectionHeight relative duration-300">
+        class="flex items-center justify-center scroll-section sectionHeight relative duration-300 section2Element">
         <Section2Component />
         <ScrollTopButton :scrollContainerRef="scrollContainerRef" />
         <ScrollDownButton :scrollContainerRef="scrollContainerRef" />
@@ -31,7 +31,7 @@
       </section>
       <!-- Section 4 -->
       <section
-        class="flex items-center justify-center scroll-section lastSectionHeight relative duration-300">
+        class="flex items-center justify-center scroll-section lastSectionHeight relative duration-300 section4Element">
         <Section4Component />
         <ScrollTopButton :scrollContainerRef="scrollContainerRef" />
       </section>
@@ -100,3 +100,44 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.section2Element::after {
+  content: "●";
+
+  font-size: 8rem;
+
+  position: absolute;
+  z-index: -1;
+  top: 0vh;
+
+  width: 100vw;
+  animation: 60s linear infinite orbit-planet;
+  transition: 300ms;
+}
+.section4Element::after {
+  content: "●";
+
+  font-size: 1rem;
+
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  width: 100vw;
+  animation: 20s ease-in infinite reverse orbit-planet;
+  transition: 300ms;
+}
+.section4Element::before {
+  content: "●";
+
+  font-size: 1rem;
+
+  position: absolute;
+  z-index: -1;
+
+  opacity: 0.3;
+  width: 100vw;
+  animation: 40s ease-out infinite reverse orbit-planet2;
+  transition: 300ms;
+}
+</style>
