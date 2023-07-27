@@ -98,12 +98,18 @@
     filter: hue-rotate(140deg);
   }
 
+  .section2BackgroundTextureCloud {
+    filter: hue-rotate(190deg);
+  }
+
   .section2 {
     background-color: $dark-primary-color;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.425);
   }
   .section2Element::after {
-    color: #dac96962;
+    color: #eeff008c;
+    content: "☾";
+    font-size: 4rem;
   }
 
   .divider {
@@ -270,13 +276,19 @@
     filter: hue-rotate(0deg);
   }
 
+  // .section2BackgroundTextureCloud {
+  //   filter: hue-rotate(130deg);
+  // }
+
   .section2 {
     background-color: #cfcfcf42;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.068);
   }
 
   .section2Element::after {
-    color: #dcee38c4;
+    color: #e6ff0267;
+    content: "●";
+    font-size: 8rem;
   }
 
   .divider {

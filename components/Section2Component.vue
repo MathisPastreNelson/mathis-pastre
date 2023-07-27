@@ -1,4 +1,8 @@
 <template>
+  <div
+    class="section2BackgroundTextureCloud Section2TextureCloudPosition"></div>
+  <!-- <div
+    class="section2BackgroundTextureCloud Section2TextureCloudPosition2"></div> -->
   <div class="section2BackgroundTexture Section2Texture1Position"></div>
 
   <div class="section2BackgroundTexture Section2Texture2Position"></div>

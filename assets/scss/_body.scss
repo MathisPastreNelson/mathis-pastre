@@ -68,8 +68,8 @@ a {
   position: absolute;
   width: 100%;
   min-height: $section-height;
-  transition: 400ms;
-  background-repeat: no-repeat;
+  transition: 800ms;
+
   background-size: 100% 40dvh;
 
   min-width: 1400px;
@@ -82,6 +82,21 @@ a {
   background-image: url(../images/background/forest.webp);
   bottom: 0;
   opacity: 0.9;
+  background-repeat: no-repeat;
+}
+
+.section2BackgroundTextureCloud {
+  @extend .sectionBackgroundTexture;
+  background-image: url(../images/background/cloud.webp);
+  background-repeat: repeat-x;
+  top: 0;
+  opacity: 0.15;
+  min-width: 3200px;
+
+  background-size: 50% 280px;
+}
+.Section2TextureCloudPosition {
+  animation: orbit-cloud 30s infinite linear;
 }
 
 .Section2Texture1Position {

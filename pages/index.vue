@@ -103,10 +103,6 @@ export default {
 
 <style scoped>
 .section2Element::after {
-  content: "●";
-
-  font-size: 8rem;
-
   position: absolute;
   z-index: -1;
   top: 0vh;
