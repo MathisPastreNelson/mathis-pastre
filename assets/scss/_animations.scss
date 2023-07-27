@@ -153,6 +153,29 @@
     transform: translateY(40px);
   }
 }
+@-webkit-keyframes bounceHX {
+  0% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(-4px);
+  }
+}
+
+@keyframes bounceHX {
+  0% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(-4px);
+  }
+}
 @-webkit-keyframes bounceH {
   0% {
     transform: translateX(-2px);
