@@ -1,8 +1,7 @@
 <template>
-  <div
-    class="section2BackgroundTexture Section2Texture1Position bounceXl"></div>
-  <div
-    class="section2BackgroundTexture Section2Texture2Position bounceXlReverse"></div>
+  <div class="section2BackgroundTexture Section2Texture1Position"></div>
+
+  <div class="section2BackgroundTexture Section2Texture2Position"></div>
   <div class="section2 px-6 py-4 my-4 relative">
     <Animate
       delay=""
@@ -130,20 +129,35 @@
 </template>
 
 <style scoped>
+.section2::after {
+  content: "●";
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 0.5rem;
+  color: #a4b663b9;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0%;
+  width: 60%;
+
+  animation: 16s linear infinite reverse orbit-pullquote;
+}
 .section2::before {
   content: "●";
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  font-size: 1rem;
-  color: #f19797b9;
+  font-size: 0.3rem;
+  color: #b2c768e7;
   position: absolute;
   z-index: -1;
   top: 0;
   right: 0%;
   width: 60%;
 
-  animation: 16s linear infinite reverse orbit-pullquote;
+  animation: 16s linear infinite orbit-pullquote;
 }
 
 /* Flip-box */

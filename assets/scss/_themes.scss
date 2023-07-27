@@ -92,6 +92,12 @@
   .content2 h2:nth-child(2) {
     color: $dark-secondary-color;
   }
+
+  //SECTION 2
+  .section2BackgroundTexture {
+    filter: hue-rotate(140deg);
+  }
+
   .section2 {
     background-color: $dark-primary-color;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.425);
@@ -242,22 +248,26 @@
   }
 
   .content h1:nth-child(1) {
-    -webkit-text-stroke: 1px $dark-background-color;
+    -webkit-text-stroke: 1px $light-secondary-color;
   }
   .content h1:nth-child(2) {
-    color: $dark-background-color;
+    color: $light-secondary-color;
   }
 
   .content2 h2:nth-child(1) {
-    -webkit-text-stroke: 1px $dark-background-color;
+    -webkit-text-stroke: 1px $light-secondary-color;
   }
 
   .content2 h2:nth-child(2) {
-    color: $dark-background-color;
+    color: $light-secondary-color;
   }
 
   .presentation {
     background-color: #cdf5ffd7;
+  }
+  //SECTION 2
+  .section2BackgroundTexture {
+    filter: hue-rotate(0deg);
   }
 
   .section2 {
