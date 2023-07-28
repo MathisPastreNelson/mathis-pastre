@@ -1,11 +1,12 @@
 <template>
+  <!-- Nuage -->
   <div
     class="section2BackgroundTextureCloud Section2TextureCloudPosition"></div>
-  <!-- <div
-    class="section2BackgroundTextureCloud Section2TextureCloudPosition2"></div> -->
+  <!-- foret fixe -->
   <div class="section2BackgroundTexture Section2Texture1Position"></div>
-
+  <!-- foret anime -->
   <div class="section2BackgroundTexture Section2Texture2Position"></div>
+  <!-- box mes services -->
   <div class="section2 px-6 py-4 my-4 relative">
     <Animate
       delay=""

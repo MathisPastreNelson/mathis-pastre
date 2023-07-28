@@ -5,7 +5,7 @@ $font-cormorant: "Cormorant";
 $section-height: 90dvh;
 $last-section-height: 82.5dvh;
 
-// Font Faces
+// Font
 @font-face {
   font-family: $font-cinzel;
   src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf") format("truetype");
@@ -22,6 +22,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   line-height: 1;
   font-family: $font-cormorant;
   cursor: url("../cursor/classic.svg"), default;
@@ -61,61 +62,4 @@ a {
 
 .lastSectionHeight {
   min-height: $last-section-height;
-}
-
-// Background Textures
-.sectionBackgroundTexture {
-  position: absolute;
-  width: 100%;
-  min-height: $section-height;
-  transition: 800ms;
-
-  background-size: 100% 40dvh;
-
-  min-width: 1400px;
-
-  z-index: -1;
-}
-
-.section2BackgroundTexture {
-  @extend .sectionBackgroundTexture;
-  background-image: url(../images/background/forest.webp);
-  bottom: 0;
-  opacity: 0.9;
-  background-repeat: no-repeat;
-}
-
-.section2BackgroundTextureCloud {
-  @extend .sectionBackgroundTexture;
-  background-image: url(../images/background/cloud.webp);
-  background-repeat: repeat-x;
-  top: 0;
-  opacity: 0.15;
-  min-width: 3200px;
-
-  background-size: 50% 280px;
-}
-.Section2TextureCloudPosition {
-  animation: orbit-cloud 30s infinite linear;
-}
-
-.Section2Texture1Position {
-  background-position: bottom;
-}
-
-.Section2Texture2Position {
-  background-position: bottom;
-  opacity: 0.5;
-  animation: bounceHX 2s infinite ease-in-out;
-  z-index: -3;
-}
-
-.section4BackgroundTexture {
-  @extend .sectionBackgroundTexture;
-  min-height: $last-section-height;
-  background-image: url(../images/background/texture2.svg);
-  opacity: 0.1;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }

@@ -1,5 +1,10 @@
 <template>
   <div class="carousel">
+    <!-- stalagmite haut -->
+    <div class="section3BackgroundStalagmite"></div>
+    <!-- stalagmite bas -->
+    <div class="section3BackgroundStalagmite2"></div>
+    <!-- carousel  -->
     <div
       class="carousel__background zoom"
       :style="{ backgroundImage: `url(${activeProjectImage})` }"></div>
@@ -881,7 +886,7 @@ export default {
   background-attachment: fixed;
   transition: 500ms;
   filter: blur(4px) brightness(50%); /* Apply the blur effect here */
-  z-index: -1; /* Set a lower z-index to place it behind the carousel content */
+  z-index: -5; /* Set a lower z-index to place it behind the carousel content */
 }
 
 .carousel__buttons_box {
@@ -899,7 +904,7 @@ export default {
 
 .carousel__prev:hover,
 .carousel__next:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
   filter: brightness(1.5);
   box-shadow: 0px 0px 40px 0px rgba(0, 139, 163, 0.76);
 }
@@ -974,19 +979,26 @@ export default {
 
 .current-slide-index {
   display: flex;
+  justify-content: center;
+  align-items: end;
   opacity: 0.8;
-  bottom: 0dvh;
+  bottom: 0px;
+  opacity: 0.8;
+  z-index: 5;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  min-height: 34px;
+  border-radius: 50% 50% 0 0;
 }
 
 .spanIndex {
-  width: 10px;
-  height: 15px;
+  width: 8px;
+  height: 12px;
   margin: 0 2px;
   transition: 300ms;
   border-radius: 2px 2px 0 0;
 }
 
 .activeDiv {
-  transform: scaleY(3.5);
+  height: 24px;
 }
 </style>

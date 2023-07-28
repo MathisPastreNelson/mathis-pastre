@@ -30,6 +30,9 @@ export default {
   right: 25%;
   opacity: 0.8;
   z-index: 5;
+
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 0 0 40% 40%;
 }
 
 .indicationElement {

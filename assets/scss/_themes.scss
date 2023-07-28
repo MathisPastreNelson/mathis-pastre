@@ -32,6 +32,10 @@
     border: 1px solid $dark-theme-button-bg-color;
   }
 
+  .indicationBox {
+    background-color: $dark-primary-color;
+  }
+
   .indicationElement {
     background-color: $dark-accent-color;
   }
@@ -99,7 +103,7 @@
   }
 
   .section2BackgroundTextureCloud {
-    filter: hue-rotate(190deg);
+    filter: hue-rotate(190deg) blur(3px);
   }
 
   .section2 {
@@ -109,7 +113,7 @@
   .section2Element::after {
     color: #eeff005d;
     content: "☾";
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   .divider {
@@ -123,6 +127,11 @@
   }
 
   // section3
+  .section3BackgroundStalagmite,
+  .section3BackgroundStalagmite2 {
+    filter: hue-rotate(200deg) brightness(0.4) blur(1px);
+  }
+
   .item__3d-frame {
     background-color: $dark-primary-color;
   }
@@ -158,6 +167,9 @@
       border-bottom: 2px solid $dark-secondary-color;
       border-right: 2px solid $dark-secondary-color;
     }
+  }
+  .current-slide-index {
+    background-color: $dark-primary-color;
   }
 
   // section4
@@ -199,6 +211,10 @@
   }
   .logo {
     filter: hue-rotate(330deg) brightness(1.2);
+  }
+
+  .indicationBox {
+    background-color: #cdf5ffd7;
   }
 
   .indicationElement {
@@ -276,9 +292,9 @@
     filter: hue-rotate(0deg);
   }
 
-  // .section2BackgroundTextureCloud {
-  //   filter: hue-rotate(130deg);
-  // }
+  .section2BackgroundTextureCloud {
+    filter: blur(3px);
+  }
 
   .section2 {
     background-color: #cfcfcf42;
@@ -307,6 +323,11 @@
   }
 
   // section3
+  .section3BackgroundStalagmite,
+  .section3BackgroundStalagmite2 {
+    filter: hue-rotate(170deg) brightness(0.8) blur(1px);
+  }
+
   .item__3d-frame {
     background-color: #cdf5ffd7;
   }
@@ -350,6 +371,10 @@
       border-bottom: 2px solid $light-secondary-color;
       border-right: 2px solid $light-secondary-color;
     }
+  }
+
+  .current-slide-index {
+    background-color: #cdf5ffd7;
   }
 
   // section4
