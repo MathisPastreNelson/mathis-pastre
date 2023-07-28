@@ -32,6 +32,10 @@
     border: 1px solid $dark-theme-button-bg-color;
   }
 
+  .scrollbutton {
+    background-color: $dark-primary-color;
+  }
+
   .indicationBox {
     background-color: $dark-primary-color;
   }
@@ -174,11 +178,11 @@
 
   // section4
   .section4BackgroundTexture {
-    filter: blur(1px) hue-rotate(190deg) brightness(140%);
+    filter: blur(1px) hue-rotate(40deg) brightness(80%);
   }
   .section4BackgroundStalagmite,
   .section4BackgroundStalagmite2 {
-    filter: hue-rotate(190deg) brightness(180%) blur(0.7px);
+    filter: hue-rotate(40deg) brightness(80%) blur(0.6px);
   }
   .section4Form {
     background-color: $dark-primary-color;
@@ -241,6 +245,11 @@
     background-color: $light-theme-button-bg-color;
     color: #feebd6;
     border: 1px solid $light-theme-button-bg-color;
+  }
+
+  .scrollbutton {
+    background-color: #cdf5ffd7;
+    border-radius: 20%;
   }
 
   main {
@@ -390,7 +399,7 @@
   }
   .section4BackgroundStalagmite,
   .section4BackgroundStalagmite2 {
-    filter: hue-rotate(40deg) brightness(140%) blur(0.7px);
+    filter: hue-rotate(40deg) brightness(180%) blur(0.6px);
   }
   .section4Form {
     background-color: #cfcfcf42;

@@ -1,7 +1,7 @@
 <template>
   <button
     aria-label="scroll down"
-    class="outline-none m-3 hover:scale-y-110 bounceClassic focus:scale-y-110 z-50 active:scale-y-110 absolute rounded-lg bg-center bottom-6 right-6 max-sm:right-3 max-sm:bottom-3 hover:brightness-125 duration-300"
+    class="scrollbutton outline-none p-3 hover:scale-y-110 bounceClassic focus:scale-y-110 z-50 active:scale-y-110 absolute rounded-lg bg-center bottom-6 right-6 max-sm:right-3 max-sm:bottom-3 hover:brightness-125 duration-300"
     @click="handleScrollToSection">
     <svg id="more-arrows" width="37.8" height="32.5">
       <polygon
