@@ -980,7 +980,7 @@ export default {
 .current-slide-index {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   opacity: 0.8;
   bottom: 0px;
   opacity: 0.8;
