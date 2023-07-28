@@ -1,6 +1,7 @@
 <template>
   <div class="section4BackgroundTexture"></div>
-
+  <div class="section4BackgroundStalagmite"></div>
+  <div class="section4BackgroundStalagmite2"></div>
   <form
     class="section4Form flex justify-center items-center flex-col my-4 px-6 py-4 duration-300"
     @submit.prevent="handleSubmit">

@@ -173,6 +173,13 @@
   }
 
   // section4
+  .section4BackgroundTexture {
+    filter: blur(1px) hue-rotate(190deg) brightness(140%);
+  }
+  .section4BackgroundStalagmite,
+  .section4BackgroundStalagmite2 {
+    filter: hue-rotate(190deg) brightness(180%) blur(0.7px);
+  }
   .section4Form {
     background-color: $dark-primary-color;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.425);
@@ -378,6 +385,13 @@
   }
 
   // section4
+  .section4BackgroundTexture {
+    filter: blur(1px) hue-rotate(50deg);
+  }
+  .section4BackgroundStalagmite,
+  .section4BackgroundStalagmite2 {
+    filter: hue-rotate(40deg) brightness(140%) blur(0.7px);
+  }
   .section4Form {
     background-color: #cfcfcf42;
     box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.068);
