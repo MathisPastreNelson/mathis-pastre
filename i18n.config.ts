@@ -5,9 +5,12 @@ export default defineI18nConfig(() => ({
   messages: {
     en: {
       // Section 1
+
       title: "Web Developer",
       switchLocaleButton: "EN",
       hoverImgText: "Hover me",
+      gifTitle: "I could have been...",
+      gifTitle2: "but...",
       presentationTexte: `Passionate about web development and fueled by creativity, I have
   acquired a solid expertise through the completion of numerous projects.
   My journey has allowed me to strengthen my knowledge in the field
@@ -77,6 +80,8 @@ export default defineI18nConfig(() => ({
       hoverImgText: "Survolez moi",
       title: "Développeur Web",
       switchLocaleButton: "FR",
+      gifTitle: "J'aurai pu être...",
+      gifTitle2: "mais...",
       presentationTexte: `Passionné par le développement web et animé par la créativité, j'ai
 acquis une expertise solide grâce à la réalisation de nombreux projets.
 Mon parcours m'a permis de renforcer mes connaissances dans le domaine

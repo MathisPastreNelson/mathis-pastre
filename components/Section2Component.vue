@@ -14,7 +14,8 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInDown 	">
-      <h2 class="text-4xl max-sm:text-3xl text-center font-semibold Cinzel">
+      <h2
+        class="text-4xl max-sm:text-3xl text-center font-semibold section2title">
         {{ $t("section2title") }}
       </h2>
     </Animate>
@@ -164,7 +165,9 @@
 
   animation: 16s linear infinite orbit-pullquote;
 }
-
+.section2title {
+  font-family: "Cinzel";
+}
 /* Flip-box */
 .flip-box {
   perspective: 1000px;

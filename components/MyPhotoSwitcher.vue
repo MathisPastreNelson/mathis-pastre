@@ -4,6 +4,13 @@
   </div>
 
   <div class="img img-02">
+    <p class="titleGif absolute w-full z-50">{{ $t("gifTitle") }}</p>
+    <p class="titleGif2 absolute w-full z-50">{{ $t("gifTitle2") }}</p>
+    <img
+      src="../assets/my-photos/1.webp"
+      class="h-full absolute photoGif"
+      alt=""
+      srcset="" />
     <div class="relative w-full h-full">
       <p
         class="absolute text-base max-sm:text-sm presentation leading-5 flex flex-col">
@@ -48,6 +55,24 @@
   z-index: 2;
   width: 80px;
   height: 80px;
+}
+
+.titleGif,
+.titleGif2 {
+  top: 50%;
+  left: 50%;
+  width: auto;
+  transform: translate(350%, -50%);
+  padding: 1rem 0.5rem;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.photoGif {
+  top: 50%;
+  left: 50%;
+
+  transform: translate(350%, -50%);
 }
 
 .img-02 {
@@ -121,7 +146,18 @@
   box-shadow: 0px 0px 120px 0px rgba(0, 139, 163, 0.76);
   filter: grayscale(0.2);
 }
+
+.img-01:hover ~ .img-02 > .titleGif {
+  animation: gifAnim 1s ease-in;
+}
+
+.img-01:hover ~ .img-02 > .titleGif2 {
+  animation: gifAnim2 3s ease-in;
+}
+.img-01:hover ~ .img-02 > img {
+  animation: gifAnim 4s ease-in;
+}
 .img-01:hover ~ .img-02 > div {
-  animation: scale-in-hor-right 1200ms ease-out;
+  animation: scale-in-hor-right 6s ease-out;
 }
 </style>
