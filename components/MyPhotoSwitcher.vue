@@ -4,10 +4,12 @@
   </div>
 
   <div class="img img-02">
-    <p class="titleGif absolute w-full z-50">{{ $t("gifTitle") }}</p>
-    <p class="titleGif2 absolute w-full z-50">{{ $t("gifTitle2") }}</p>
+    <p class="titleGif text-2xl absolute w-full z-50">{{ $t("gifTitle") }}</p>
+    <p class="titleGif2 text-2xl absolute w-full z-50">
+      {{ $t("gifTitle2") }}
+    </p>
     <img
-      src="../assets/my-photos/1.webp"
+      src="../assets/my-photos/AnimationMoiOK.gif"
       class="h-full absolute photoGif"
       alt=""
       srcset="" />
@@ -59,11 +61,11 @@
 
 .titleGif,
 .titleGif2 {
-  top: 50%;
+  bottom: 0%;
   left: 50%;
   width: auto;
   transform: translate(350%, -50%);
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 15px;
   opacity: 0;
 }
@@ -148,11 +150,11 @@
 }
 
 .img-01:hover ~ .img-02 > .titleGif {
-  animation: gifAnim 1s ease-in;
+  animation: gifAnim 1.8s ease-in;
 }
 
 .img-01:hover ~ .img-02 > .titleGif2 {
-  animation: gifAnim2 3s ease-in;
+  animation: gifAnim2 3.5s ease-in;
 }
 .img-01:hover ~ .img-02 > img {
   animation: gifAnim 4s ease-in;
