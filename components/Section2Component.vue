@@ -1,4 +1,14 @@
 <template>
+  <!-- oiseau -->
+
+  <div class="bird-container bird-container--one">
+    <div class="bird bird--one"></div>
+  </div>
+
+  <div class="bird-container bird-container--four">
+    <div class="bird bird--four"></div>
+  </div>
+
   <!-- Nuage -->
   <div
     class="section2BackgroundTextureCloud Section2TextureCloudPosition"></div>
