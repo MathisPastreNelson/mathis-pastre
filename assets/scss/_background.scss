@@ -122,7 +122,34 @@
   background-position: bottom;
   background-repeat: repeat-x;
 }
+
 // SECTION 4
+.section4DropWater {
+  background-image: url(../images/items/dropWater.png);
+  position: absolute;
+  background-size: cover;
+  width: 15px;
+  height: 21px;
+  top: -15px;
+  left: 40%;
+  z-index: -1;
+  opacity: 0.6;
+  filter: blur(1px);
+  animation: dropWaterAnim infinite 6s ease-in;
+}
+.section4DropWater2 {
+  background-image: url(../images/items/dropWater.png);
+  position: absolute;
+  background-size: cover;
+  width: 15px;
+  height: 21px;
+  top: -15px;
+  right: 30%;
+  opacity: 0.6;
+  filter: blur(1px);
+  animation: dropWaterAnim infinite 10s ease-in;
+  z-index: -1;
+}
 
 .section4BackgroundTexture {
   @extend .sectionBackgroundTexture;

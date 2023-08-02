@@ -885,7 +885,7 @@ export default {
   background-repeat: no-repeat;
   background-attachment: fixed;
   transition: 500ms;
-  filter: blur(4px) brightness(50%); /* Apply the blur effect here */
+  filter: blur(3px) brightness(50%); /* Apply the blur effect here */
   z-index: -5; /* Set a lower z-index to place it behind the carousel content */
 }
 

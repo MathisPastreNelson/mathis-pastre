@@ -1,5 +1,8 @@
 <template>
   <div class="section4BackgroundTexture"></div>
+  <!-- goutte d'eau -->
+  <div class="section4DropWater"></div>
+  <div class="section4DropWater2"></div>
   <div class="section4BackgroundStalagmite"></div>
   <div class="section4BackgroundStalagmite2"></div>
   <form
