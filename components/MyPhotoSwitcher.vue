@@ -61,7 +61,7 @@
 
 .titleGif,
 .titleGif2 {
-  bottom: 0%;
+  bottom: 10%;
   left: 50%;
   width: auto;
   transform: translate(350%, -50%);
@@ -150,14 +150,14 @@
 }
 
 .img-01:hover ~ .img-02 > .titleGif {
-  animation: gifAnim 1.8s ease-in;
+  animation: gifAnim 2s ease-in;
 }
 
 .img-01:hover ~ .img-02 > .titleGif2 {
-  animation: gifAnim2 3.5s ease-in;
+  animation: gifAnim2 4s ease-in;
 }
 .img-01:hover ~ .img-02 > img {
-  animation: gifAnim 4s ease-in;
+  animation: gifAnim 3s ease-in;
 }
 .img-01:hover ~ .img-02 > div {
   animation: scale-in-hor-right 6s ease-out;

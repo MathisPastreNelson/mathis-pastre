@@ -216,7 +216,7 @@
   0% {
     transform: translateY(-50%) translateX(-50%);
   }
-  50% {
+  10% {
     opacity: 1;
   }
   70% {
@@ -234,13 +234,11 @@
     transform: translateY(-50%) translateX(-50%);
     opacity: 0;
   }
-  40% {
+  45% {
     opacity: 0;
   }
-  50% {
-    opacity: 1;
-  }
-  70% {
+
+  60% {
     transform: translateY(-50%) translateX(-50%);
     opacity: 1;
   }
