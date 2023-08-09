@@ -3,7 +3,7 @@
 export default {
   getThemeFromLocalStorage() {
     if (typeof localStorage !== "undefined") {
-      return localStorage.getItem("theme") || "dark";
+      return localStorage.getItem("theme") || "light";
     }
     return "light";
   },
