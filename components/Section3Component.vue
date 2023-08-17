@@ -986,7 +986,7 @@ export default {
   opacity: 0.8;
   z-index: 5;
   padding: 0.5rem 0.5rem 0 0.5rem;
-  min-height: 34px;
+  min-height: 36px;
   border-radius: 50% 50% 0 0;
 }
 
