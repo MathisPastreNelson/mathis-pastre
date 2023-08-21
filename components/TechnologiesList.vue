@@ -11,14 +11,14 @@
         class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
         <img src="../assets/images/items/icons/html.svg" alt="HTML5" />
         <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-          >HTML5</span
+          >HTML</span
         >
       </button>
       <button
         class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
         <img src="../assets/images/items/icons/css.svg" alt="CSS3" />
         <span class="tooltip shadow-shadow1 rounded-md py-1 px-4 font-black"
-          >CSS3</span
+          >CSS</span
         >
       </button>
       <button
