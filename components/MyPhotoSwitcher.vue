@@ -1,4 +1,5 @@
 <template>
+  <!-- portrait + texte hoverMe -->
   <div class="img img-01 text-sm">
     <p class="hoverText w-60">{{ $t("hoverImgText") }}</p>
   </div>
