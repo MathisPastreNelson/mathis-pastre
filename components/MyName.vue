@@ -1,4 +1,5 @@
 <template>
+  <!-- mon nom + titre -->
   <div class="opacity-90 font-thin">
     <Animate
       delay=""
