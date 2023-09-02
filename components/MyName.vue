@@ -1,5 +1,5 @@
 <template>
-  <!-- mon nom + titre -->
+  <!-- mon nom + titre (page 1) -->
   <div class="opacity-90 font-thin">
     <Animate
       delay=""
