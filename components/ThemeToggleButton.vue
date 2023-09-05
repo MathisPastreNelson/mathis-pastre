@@ -1,4 +1,5 @@
 <template>
+  <!-- bouton change theme -->
   <button
     aria-label="theme change"
     @click="toggleTheme"
