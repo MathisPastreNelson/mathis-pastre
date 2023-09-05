@@ -11,6 +11,7 @@
 
     <div class="carousel__body">
       <div class="carousel__slider">
+        <!--   la liste des sites -->
         <div class="carousel__slider__item">
           <div class="item__3d-frame">
             <div class="item__3d-frame__box item__3d-frame__box--front">
