@@ -9,7 +9,7 @@
     <div class="bird bird--four"></div>
   </div>
 
-  <!-- Nuage -->
+  <!-- serie de Nuages -->
   <div
     class="section2BackgroundTextureCloud Section2TextureCloudPosition"></div>
   <!-- foret fixe -->
