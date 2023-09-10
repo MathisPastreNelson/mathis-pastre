@@ -24,6 +24,7 @@
       repeat=""
       v-bind:scroll="true"
       animation="animate__fadeInDown 	">
+      <!-- Titre -->
       <h2
         class="text-4xl max-sm:text-3xl text-center font-semibold section2title">
         {{ $t("section2title") }}
