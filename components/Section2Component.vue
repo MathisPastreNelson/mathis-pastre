@@ -141,6 +141,7 @@
       </div>
     </Animate>
     <div class="divider my-4"></div>
+    <!-- La liste des techno -->
     <TechnologiesList />
   </div>
 </template>
