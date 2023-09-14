@@ -1,6 +1,7 @@
 <template>
   <!-- mon nom + titre (page 1) -->
   <div class="opacity-90 font-thin">
+    <!-- Nom prénom -->
     <Animate
       delay=""
       duration=""
@@ -14,6 +15,7 @@
         </div>
       </div>
     </Animate>
+    <!-- Titre (web dev) -->
     <Animate
       delay=""
       duration=""

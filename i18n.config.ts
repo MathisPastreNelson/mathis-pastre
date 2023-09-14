@@ -1,8 +1,10 @@
 // i18n.config.js
 export default defineI18nConfig(() => ({
   legacy: false,
+  // langue par default fr
   locale: "fr",
   messages: {
+    // Anglais
     en: {
       // Section 1
 
@@ -74,6 +76,9 @@ export default defineI18nConfig(() => ({
       contactSubTitle: "Contact me",
       contactSend: "Send",
     },
+
+    // Francais
+
     fr: {
       // Section 1
 
@@ -91,6 +96,7 @@ réalisations passées.
 `,
 
       // Section 2
+
       section2title: "Mes services",
       IntegrationWebTitle: "Intégration web",
       IntegrationWebDescribe:
@@ -137,6 +143,7 @@ réalisations passées.
         "J'ai été chargé de créer un prototype en intégrant une maquette en HTML/CSS. Le site permet à l'utilisateur de trouver des hébergements et des activités dans une ville choisie.",
 
       visitButton: "Visiter",
+
       // Section 4
       contactTitle: "Un projet web ?",
       contactSubTitle: "Contactez moi",

@@ -30,6 +30,7 @@
         {{ $t("section2title") }}
       </h2>
     </Animate>
+    <!-- Diviser -->
     <div class="divider my-4"></div>
     <!-- Articles -->
     <Animate
@@ -140,6 +141,7 @@
         </div>
       </div>
     </Animate>
+    <!-- Diviser -->
     <div class="divider my-4"></div>
     <!-- La liste des techno -->
     <TechnologiesList />

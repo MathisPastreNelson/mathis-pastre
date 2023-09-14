@@ -2,11 +2,13 @@
   <main class="relative overflow-hidden">
     <header
       class="headerHeight flex items-center px-10 max-sm:px-4 duration-300 justify-between w-full z-10">
+      <!-- Logo -->
       <img
         class="logo"
         src="../assets/images/items/MP-logo.webp"
         alt="header logo" />
 
+      <!-- boutons theme + lang -->
       <Animate
         delay=""
         duration=""
