@@ -7,6 +7,7 @@
     animation="animate__fadeInUp 	">
     <div
       class="tooltip_container p-1 flex items-center justify-evenly w-full mx-auto">
+      <!-- Liste des technos -->
       <button
         class="techonologiesIcon opacity-60 hover:opacity-100 duration-300">
         <img src="../assets/images/items/icons/html.svg" alt="HTML5" />
