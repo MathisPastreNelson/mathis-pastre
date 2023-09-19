@@ -9,6 +9,7 @@
     <p class="titleGif2 text-2xl absolute w-full z-50">
       {{ $t("gifTitle2") }}
     </p>
+    <!-- le gif -->
     <img
       src="../assets/my-photos/AnimationMoiOK.gif"
       class="h-full absolute photoGif"
