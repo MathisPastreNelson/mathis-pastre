@@ -25,6 +25,7 @@
       </h4>
     </Animate>
     <div class="divider m-4"></div>
+    <!-- Label -->
     <label
       class="text-2xl max-sm:text-xl w-full text-left pb-2 ml-2"
       for="email">
@@ -37,6 +38,7 @@
         Email
       </Animate>
     </label>
+    <!-- Inputs -->
     <input
       id="email"
       class="w-full p-2 outline-none inputContact font-bold duration-300"
@@ -56,6 +58,7 @@
         Message
       </Animate>
     </label>
+    <!-- Inputs -->
     <textarea
       id="message"
       class="w-full h-28 p-2 outline-none inputContact max-h-80 font-bold duration-300"
